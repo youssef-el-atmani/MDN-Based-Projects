@@ -1,3 +1,6 @@
+## When Working With Assets
+### Compress the images
+Use [tinypng](https://tinypng.com/) or similar tool to decrease the size of images, in order to improve the performance.
 ## Once You Finish Building Any Project
 ### Open It Using Local Server
 Open your project-page using `local server`: use the `Node.js` for that\
