@@ -27,3 +27,11 @@ the attribute is set to `false`.
 > [!IMPORTANT]
 > To keep that the `boolean attribute` concept in your mind, write it at least once,\
 > Some examples are: `required`, `readonly`, and `disabled`, you can use one of those if you want.
+
+### Double Quotes
+
+Both single and double quotes are valid, but for consistency stick to `double quotes` whenever you have to choose between them.\
+Wrapping HTML attribute values as an example: `class="first-title"`.
+
+> [!IMPORTANT]
+> Use only double quotes in your HTML code whenever needed
