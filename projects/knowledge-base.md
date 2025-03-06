@@ -41,3 +41,8 @@ Wrapping HTML attribute values as an example: `class="first-title"`.
 The head's job is to contain metadata about the document.
 
 > Dictionary: metadata is information that is given to describe or help you use other information
+
+#### title element
+
+The title element are used in `page tab`\
+and also as suggestion name when you try to bookmark a webpage
