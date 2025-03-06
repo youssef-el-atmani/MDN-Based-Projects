@@ -35,3 +35,9 @@ Wrapping HTML attribute values as an example: `class="first-title"`.
 
 > [!IMPORTANT]
 > Use only double quotes in your HTML code whenever needed
+
+### Head Elem: Webpage metadata
+
+The head's job is to contain metadata about the document.
+
+> Dictionary: metadata is information that is given to describe or help you use other information
