@@ -46,3 +46,6 @@ The head's job is to contain metadata about the document.
 
 The title element are used in `page tab`\
 and also as suggestion name when you try to bookmark a webpage
+
+> [!IMPORTANT]
+> Include a `title element` in the `head`.
