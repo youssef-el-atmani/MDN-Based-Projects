@@ -49,3 +49,40 @@ and also as suggestion name when you try to bookmark a webpage
 
 > [!IMPORTANT]
 > Include a `title element` in the `head`.
+
+#### `<meta>` elem
+
+##### meta charset utf-8
+
+`<meta charset="utf-8" />`\
+This element specifies the document's character encoding.\
+`utf-8` is a universal character set that includes pretty much any character from any human language.
+
+> Some browsers (like Chrome) automatically fix incorrect encodings, so depending on what browser you use, you may not see this problem. You should still set an encoding of `utf-8` on your page anyway to avoid any potential problems in other browsers.
+
+> [!IMPORTANT]
+> Include `<meta charset="utf-8" />` in your page.
+
+##### meta with name & content attr
+
+- `name` specifies the type of meta element it is; what type of information it contains.
+- `content` specifies the actual meta content.\
+
+Two such meta elements that are useful to include on your page define the author of the page, and provide a concise description of the page.
+
+```html
+<meta name="author" content="Chris Mills" />
+<meta
+  name="description"
+  content="The MDN Web Docs Learning Area aims to provide
+complete beginners to the Web with all they need to know to get
+started with developing websites and applications."
+/>
+```
+
+> This is good for SEO.
+
+> [!IMPORTANT]
+> Include a meta element that include your name\
+> And another meta element that include description to the page content\
+> Do something similar to the example above
