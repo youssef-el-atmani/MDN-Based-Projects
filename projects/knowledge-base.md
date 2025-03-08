@@ -129,3 +129,18 @@ It should go in the `head` elem, and include the following attributes:
 >
 > - `src`,
 > - and `defer` attributes
+
+#### Setting primary language for the document [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata#setting_the_primary_language_of_the_document)
+
+This can be done by adding the `lang` attribute to the opening HTML tag as: `<html lang="en-US">`
+
+> Your HTML document will be indexed more effectively by search engines if its language is set (allowing it to appear correctly in language-specific results, for example)\
+> and it used by screen readers to use the right language
+
+You can also set subsections of your document to be recognized as different languages.
+
+`<p>Arabic Example <span lang="ar">مرحبا</span></p>`
+
+> [!IMPORTANT]
+> Add the `lang` attr to the whole document, use `en` for now,
+> and use it for some subsection of the document, maybe for `p`, or `span`
