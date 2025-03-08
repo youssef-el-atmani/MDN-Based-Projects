@@ -144,3 +144,7 @@ You can also set subsections of your document to be recognized as different lang
 > [!IMPORTANT]
 > Add the `lang` attr to the whole document, use `en` for now,
 > and use it for some subsection of the document, maybe for `p`, or `span`
+
+### ✅💻 01 Initial
+
+The [Initial](/projects/html-stage/01-initial/index.html) is a simple project where I put all the above concepts that is mostly related to metadata that goes in the head elem
