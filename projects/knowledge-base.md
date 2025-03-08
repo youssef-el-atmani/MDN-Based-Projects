@@ -114,3 +114,18 @@ Here is how it should be: `<link rel="stylesheet" href="my-css-file.css" />`
 > [!IMPORTANT]
 > Create an empty css file and link it.
 > The `link` elem should have `rel` and `href` attributes with there right values
+
+#### Applying JavaScript
+
+Applying JS Done using the `script` element,\
+It should go in the `head` elem, and include the following attributes:
+
+- `src` with `js file path` as it value,
+- `defer` which is a `boolean attribute` that basically instructs the browser to load the JavaScript `after` the page has finished parsing the HTML
+
+> [!IMPORTANT]
+> Create an empty JS file,\
+> The `script` elem should go in the `head`, and should include:
+>
+> - `src`,
+> - and `defer` attributes
