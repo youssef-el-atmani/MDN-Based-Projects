@@ -147,4 +147,7 @@ You can also set subsections of your document to be recognized as different lang
 
 ### ✅💻 01 Initial
 
-The [Initial](/projects/html-stage/01-initial/index.html) is a simple project where I put all the above concepts that is mostly related to metadata that goes in the head elem
+It is a simple project where I put all the above concepts that is mostly related to metadata that goes in the head elem.
+
+- [code](/projects/html-stage/01-initial/)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/01-initial/index.html)
