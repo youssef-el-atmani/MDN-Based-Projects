@@ -100,3 +100,17 @@ A favicon can be added to your page by:
 > [!IMPORTANT]
 > Add a favicon to your page,\
 > The link element should have `rel`, `href`, and `type` attributes.
+
+#### Applying CSS
+
+Applying CSS done through the `link` element,\
+The `link` element should go inside the `head` element, and should have:
+
+- `rel` attribute with value: `stylesheet`,
+- `href` attribute with the `css file path` as its value.
+
+Here is how it should be: `<link rel="stylesheet" href="my-css-file.css" />`
+
+> [!IMPORTANT]
+> Create an empty css file and link it.
+> The `link` elem should have `rel` and `href` attributes with there right values
