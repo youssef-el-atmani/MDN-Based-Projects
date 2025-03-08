@@ -86,3 +86,17 @@ started with developing websites and applications."
 > Include a meta element that include your name\
 > And another meta element that include description to the page content\
 > Do something similar to the example above
+
+#### favicon
+
+You may see (depending on the browser) favicons displayed in the browser tab containing each open page, and next to bookmarked pages in the bookmarks panel.
+
+A favicon can be added to your page by:
+
+- Saving it in the same directory as the site's index page, saved in .ico format (most also support favicons in more common formats like .gif or .png)
+- Adding the following line into your HTML's <head> block to reference it:\
+  `<link rel="icon" href="favicon.ico" type="image/x-icon" />`
+
+> [!IMPORTANT]
+> Add a favicon to your page,\
+> The link element should have `rel`, `href`, and `type` attributes.
