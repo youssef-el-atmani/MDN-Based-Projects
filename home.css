@@ -1,0 +1,6 @@
+/* For projects lists */
+/* To make the last project built appears the first */
+.projects-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
