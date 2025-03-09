@@ -1,3 +1,11 @@
+## When creating new projects
+
+### Home Address
+
+Add `link` to every project that reference to : `the main page`, and name it `Projects Home`.
+
+> This is will make it easy to navigate to all the projects.
+
 ## When Working With Assets
 
 ### Compress the images
