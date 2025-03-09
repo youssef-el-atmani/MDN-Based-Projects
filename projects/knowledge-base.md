@@ -151,3 +151,30 @@ It is a simple project where I put all the above concepts that is mostly related
 
 - [code](/projects/html-stage/01-initial/)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/01-initial/index.html)
+
+### Heading & paragraphs in HTML [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs)
+
+Structured content makes the reading experience easier and more enjoyable.
+
+#### paragraphs
+
+In HTML, each paragraph has to be wrapped in a `<p>` element.
+
+#### headings
+
+There are six heading elements: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Each element represents a different level of content in the document.\
+
+- Preferably, you should use a single `<h1>` per page—this is the top level heading, and all others sit below this in the hierarchy.
+- Make sure you use the headings in the correct order in the hierarchy. Don't use `<h3>` elements to represent subheadings, followed by `<h2>` elements to represent sub-subheadings.
+- Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary.
+
+> - we need to make sure we are using the correct elements, giving our content the correct meaning, function, or appearance.
+> - Semantics has nothing to do with the **LOOK** of the elements, sure the browser by default apply some default styling to elements based on there type, but for example you can style a `p` element to appear like `h1` element using CSS, but that will not change its semantic, it will stay a _paragraph_.
+
+> [!IMPORTANT]
+>
+> - Always respect the **semantics**.
+> - Use a single `h1` element per page.
+> - Use at least a single paragraph.
+> - Use _no more_ than **three** type of headings unless necessary.
+> - Never choose semantic elements for their default style, if you only want to change the _look_ for something use _CSS_.
