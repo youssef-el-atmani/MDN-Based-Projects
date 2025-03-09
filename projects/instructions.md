@@ -1,3 +1,7 @@
+## Projects Home
+
+The [projects home](/about.html) should be enhanced with time, but only do the enhancement that is needed and meaningful. Don't just put stuffs there because you know how to apply them.
+
 ## When creating new projects
 
 ### Home Address
