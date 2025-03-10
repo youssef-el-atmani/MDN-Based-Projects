@@ -10,6 +10,14 @@ Add `link` to every project that reference to : `the main page`, and name it `Pr
 
 > This is will make it easy to navigate to all the projects.
 
+### Add README.file
+
+It should contains a:
+
+- Live preview link,
+- The Hijri date,
+- Brief description for the project,
+
 ## When Working With Assets
 
 ### Compress the images
