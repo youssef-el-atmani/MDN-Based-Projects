@@ -200,3 +200,70 @@ And we use `<strong>` element to mark up **importance**.
 
 > [!IMPORTANT]
 > Include `em` and `strong` at least once for each in your page.
+
+## Lists [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists)
+
+On the web, we have three types of lists: **unordered**, **ordered**, and **description** lists.
+
+### Unordered lists
+
+Unordered lists are used to mark up lists of items for which the order of the items doesn't matter.\
+They are built using the `<ul>` element, which wrap all the list items, each list item should be wrapped in a `<li>` element.
+
+> [!IMPORTANT]
+> Include at least a single **unordered list**.
+
+### Ordered lists
+
+Ordered lists are lists in which the order of item _does_ matter.\
+The markup structure is the same as for unordered lists, except that you have to wrap the list items in an `<ol>` element, rather than `<ul>`
+
+> [!IMPORTANT]
+> Include at least a single **ordered list**.
+
+### Nesting lists
+
+You can create an new list within another list by wrapping new `ol` or `ul` inside a `li` elem.
+
+```html
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>
+    item 3
+    <ul>
+      <li>sub-item 1</li>
+      <li>sub-item 2</li>
+      <li>sub-item 3</li>
+    </ul>
+  </li>
+</ol>
+```
+
+> [!IMPORTANT]
+> Nest at least one list.
+> It doesn't matter if it is nested in `ul` or `ol`.
+
+### Description lists [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists#description_lists)
+
+> The purpose of description lists is to mark up a set of items and their associated descriptions, such as terms and definitions, or questions and answers.
+
+It is created by `<dl>`(description list) element,\
+Each term is wrapped in a `<dt>` (description term) element,\
+And each description definition is wrapped in a `<dd>` (description definition) elem.\
+
+```html
+<dl>
+  <dt>description term</dt>
+  <dd>description definition</dd>
+
+  <dt>description term</dt>
+  <dd>description definition</dd>
+
+  <dt>description term</dt>
+  <dd>description definition</dd>
+</dl>
+```
+
+> [!IMPORTANT]
+> Include at least a single **description list**.
