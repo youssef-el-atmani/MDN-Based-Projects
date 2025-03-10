@@ -1,5 +1,9 @@
 # MDN-Based-Projects
 
+Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects/index.html) to see live previews for the projects.
+
+## About
+
 These are not arbitrary projects:\
 I did create that projects-system to solve many problems that I had in the past when I tried to learn web development.\
 
