@@ -185,3 +185,18 @@ This is a fully text-based project, that introduce in a brief manner all the typ
 
 - [code](/projects/html-stage/02-vehicles/)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/02-vehicles/index.html)
+
+## Emphasis & Importance [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance)
+
+In HTML we use the `<em>` element to mark up **emphasis**.\
+And we use `<strong>` element to mark up **importance**.
+
+> **presentational elements** should no longer be used because, as we've seen before, semantics is so important to accessibility, SEO, etc.\
+> For styling you should only use CSS.
+
+> [!WARNING]
+> There are [some others](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance#italic_bold_underline%E2%80%A6) that are a bit confusing: `<b>, <i>, and <u>`,\
+>  just forget about them now!
+
+> [!IMPORTANT]
+> Include `em` and `strong` at least once for each in your page.
