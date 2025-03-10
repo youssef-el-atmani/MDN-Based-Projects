@@ -14,3 +14,17 @@ You have the **ingredients** and the **constraints**, now try to do something cr
 > [!IMPORTANT]
 > You should create something meaningful, either do it by your own, or use some AI tool to help you.\
 > The most important stuffs here and the thing **that you should focus on the most** is using the **stuffs** you have learned, the **story part** add a gentle touch to the process, so that you avoid boredom, and to stay motivated.
+
+### Define the general topic
+
+Choose a topic that looks relevant to the stuffs you want to implement
+
+### Draw the highlights
+
+If the project include some content, and mostly it will, break the content topic to small parts, and then use AI tools to generate content for you.
+
+## Prepare meta data
+
+- Write a description for the project
+- choose a favicon
+- Keep truck of the attributions
