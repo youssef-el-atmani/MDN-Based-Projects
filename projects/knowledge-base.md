@@ -178,3 +178,10 @@ There are six heading elements: `h1`, `h2`, `h3`, `h4`, `h5`, and `h6`. Each ele
 > - Use at least a single paragraph.
 > - Use _no more_ than **three** type of headings unless necessary.
 > - Never choose semantic elements for their default style, if you only want to change the _look_ for something use _CSS_.
+
+### ✅💻 02 - Vehicles
+
+This is a fully text-based project, that introduce in a brief manner all the type of vehicles which is _air, road, water vehicles_, and under each type there is some _but not all_ types & vehicles.
+
+- [code](/projects/html-stage/02-vehicles/)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/02-vehicles/index.html)
