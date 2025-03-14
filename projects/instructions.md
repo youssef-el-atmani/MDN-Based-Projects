@@ -10,6 +10,16 @@ Add `link` to every project that reference to : `the main page`, and name it `Pr
 
 > This is will make it easy to navigate to all the projects.
 
+### Project Message
+
+Each project document the knowledge that you had at the moment of building it.\
+I guess that is a good thing to keep.\
+Sometime you learn new stuffs, and you think that an already built project is the perfect ground to start from, if you work directly on the original project, then you will loose that **knowledge documentation**.\
+
+create a copy for that sub-website, and name it `enhanced`, you can even create a separate `branch` for it, and once you finish, you can decide wether it deserve to stay, if so, add a link to it in the **original page** and named it something like _the enhanced version_.\
+
+_the enhanced version_ should be included both in the top and the bottom of the page, and it should be easily spotted.
+
 ### Add README.file
 
 It should contains a:
