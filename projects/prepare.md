@@ -2,6 +2,10 @@
 
 > here I will store the necessary steps that I should follow when trying to build new project for the MDN-Based-Projects
 
+> [!note]
+> A project that composed of a single page that should contain everything you've learned could end like a mess\
+> Try to break the project to multiple pages depending on the things you want to implement
+
 ## Define the ingredients & constraints
 
 > - The **ingredients** are the things that the projects should be built from.
