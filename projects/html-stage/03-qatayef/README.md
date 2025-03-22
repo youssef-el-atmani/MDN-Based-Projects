@@ -1,5 +1,9 @@
 # Qatayef - Lebanese Pancakes (Ramadan Dessert 🌙)
 
+## Project Goal
+
+The only goal for this project is to practice all what I've learned until now.
+
 ## Preparing for the project
 
 ### The Story
