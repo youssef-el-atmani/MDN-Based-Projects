@@ -2,6 +2,15 @@
 
 > here I will store the necessary steps that I should follow when trying to build new project for the MDN-Based-Projects
 
+> [!CAUTION]
+> It is super easy to get too far and _waste your limited time_ on the wrong stuffs,\
+> Do not forget the goal of these projects, **To Practice What You've Learned!**
+>
+> - If you are in HTML section, _do not waste a second_ on the css or the UI/UX stuffs, keep that when you learn some CSS and you want some practice for it.
+> - Do not invest more time than needed for content creation.
+>
+> **Remember** that **you should move forward _as fast as possible_**!
+
 > [!note]
 > A project that composed of a single page that should contain everything you've learned could end like a mess\
 > Try to break the project to multiple pages depending on the things you want to implement
