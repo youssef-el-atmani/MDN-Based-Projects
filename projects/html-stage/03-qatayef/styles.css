@@ -1,4 +1,18 @@
 /* Basic Styling Only, since its not CSS timing*/
+
+/* Basmalah */
+.basmalah {
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  background-color: #219ebc;
+}
+.basmalah > [lang="ar"] {
+  font-weight: bold;
+}
+
 body {
   width: 70ch;
   margin: auto;
