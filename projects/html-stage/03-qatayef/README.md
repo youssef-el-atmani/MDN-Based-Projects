@@ -18,3 +18,4 @@ Qatayef is a web page that will show you step by step how to prepare the well kn
 
 - favicon by [icon_small](https://www.freepik.com/icon/letter-q_9128956) from freepik.
 - The content is taken from the web.
+- The colors used in this page are taken from [coolors.co](https://coolors.co/palettes/trending)
