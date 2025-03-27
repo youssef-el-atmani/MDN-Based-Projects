@@ -83,3 +83,11 @@ aside p {
 aside a {
   color: #354f52;
 }
+/* Footer element */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background-color: #a8dadc;
+}
