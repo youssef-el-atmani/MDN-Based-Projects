@@ -18,6 +18,29 @@ body {
   margin: auto;
 }
 
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  background-color: #a8dadc;
+  padding: 7px;
+  border-radius: 7px 7px 0 0;
+}
+
+header img {
+  border: #ffffff solid 3px;
+  border-radius: 43%;
+}
+
+header .logo-name {
+  font-size: x-large;
+  color: #1d3557;
+}
+
 h1 {
   text-align: center;
 }
