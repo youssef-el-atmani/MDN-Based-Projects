@@ -1,7 +1,7 @@
 # Qatayef - Lebanese Pancakes (Ramadan Dessert 🌙)
 
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/03-qatayef/index.html)
-- This project completed on: 27 Ramadan 1446 _hijri date_
+- This project was completed on 27 Ramadan 1446 AH
 
 ## Project Goal
 
