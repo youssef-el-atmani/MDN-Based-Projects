@@ -83,6 +83,16 @@ aside p {
 aside a {
   color: #354f52;
 }
+/* General Info section */
+/* questions and answers */
+.questions.answers {
+  background-color: #f1faee;
+  padding: 7px;
+  margin-top: 33px;
+  border-radius: 7px 7px 0 0;
+  border: #a8dadc 2px solid;
+}
+
 /* Footer element */
 footer {
   display: flex;
