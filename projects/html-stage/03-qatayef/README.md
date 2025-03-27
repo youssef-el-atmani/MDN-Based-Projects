@@ -1,5 +1,7 @@
 # Qatayef - Lebanese Pancakes (Ramadan Dessert 🌙)
 
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/03-qatayef/index.html)
+
 ## Project Goal
 
 The only goal for this project is to practice all what I've learned until now.
