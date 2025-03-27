@@ -79,3 +79,7 @@ aside {
 aside p {
   margin: 0;
 }
+
+aside a {
+  color: #354f52;
+}
