@@ -1,6 +1,46 @@
+body {
+  width: 70ch;
+  margin: auto;
+  /* background-color: #edf6f9; */
+  /* background-color: #f1faee; */
+  /* background-color: white; */
+  /* background-color: #cbf3f0; */
+}
+
+.page-content {
+  height: 100vh;
+  background-color: white;
+  padding: 7px;
+  margin-top: 7px;
+  box-shadow: 0px 0px 7px #224353b7;
+}
+
+h1 {
+  text-align: center;
+  color: #003049;
+  background-color: #fdf0d5;
+}
 /* For projects lists */
 /* To make the last project built appears the first */
 .projects-list {
   display: flex;
   flex-direction: column-reverse;
+  background-color: #f1faee;
+  /* padding: 7px; */
+  border-radius: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.about {
+  color: #00a896;
+}
+.projects-list a {
+  color: #457b9d;
+  text-decoration: solid;
+}
+.projects-list a:hover {
+  color: #1d3557;
+  /* font-weight: bold; */
+  text-decoration: dashed;
 }
