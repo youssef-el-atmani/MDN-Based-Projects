@@ -20,3 +20,7 @@ It may sound slow, and it is slow, but to name few of the reasons that I believe
   As a summary that system of Cumulative-Learning is A way of learning, revising, practicing, and mastering the topics I learn.\
   And of course to stay motivated and not feeling like I'm burning out.
   > Once I cover it, I will write, and work with it all the time.
+
+## Attributions
+
+- favicon from [Omen Media](https://www.flaticon.com/fr/icone-gratuite/lettre-m_6821379?term=m&page=1&position=43&origin=search&related_id=6821379) via flaticon.
