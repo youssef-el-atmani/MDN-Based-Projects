@@ -467,3 +467,38 @@ The **q** element must not be used in place of quotation marks that do not repre
 
 > [!IMPORTANT]
 > 🎯 Use at least a single `q` element
+
+### Abbreviations
+
+The `abbr` element represents an **abbreviation** or **acronym**, optionally with its expansion.\
+The `title` attribute may be used to provide an expansion of the abbreviation.\
+The _attribute_, if specified, must contain an expansion of the abbreviation, and nothing else.
+
+#### Used for acronym
+
+Here is a basic example:
+
+```html
+<p>
+  The <abbr>NASA</abbr> word is an acronym, which is an abbreviation consisting
+  of the first letters of each word in the name of something, pronounced as a
+  word
+</p>
+```
+
+#### And used for abbreviations
+
+It goes with a **title** attribute, here is a simple example of how to use it:
+
+```html
+<p>
+  The following are some common abbreviations:
+  <abbr title="doctor">Dr</abbr>,<br />
+  <abbr title="et cetera">etc</abbr>, <br />
+  <abbr title="Digital Versatile Disc">DVD</abbr>,
+</p>
+```
+
+> [!IMPORTANT]
+> 🎯 Use at least a single acronym and wrap it in a `abbr` element.
+> 🎯 Use at least a single abbreviation and give it an expansion with the `title` attr.
