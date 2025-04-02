@@ -434,3 +434,36 @@ It used mostly like:
 
 > [!IMPORTANT]
 > 🎯 Use the `hr` element at least once.
+
+## Advanced text features
+
+> For more details:\
+> [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features)
+
+### Quotations
+
+#### Blockquote
+
+> For more details:
+>
+> - [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features#blockquotes)
+> - [WHATWG](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element)
+
+The blockquote element represents a section that is quoted from another source.\
+
+Content inside a **blockquote** must be quoted from **another source**, whose address, if it has one, may be cited in the **cite** attribute.
+
+> [!IMPORTANT]
+> 🎯 Use the `<blockquote>` element at least a single time.
+
+#### Inline quotations
+
+Inline quotations work in exactly the same way, except that they use the `<q>` element.\
+
+The **q** element must not be used in place of quotation marks that do not represent quotes
+
+> [!NOTE]
+> By **WHATWG:** The use of `q` elements to mark up quotations is entirely _optional_; using **explicit quotation punctuation** without **q** elements is just as correct.
+
+> [!IMPORTANT]
+> 🎯 Use at least a single `q` element
