@@ -550,3 +550,14 @@ They are useful when writing special mathematical formulas, or chemical formulas
 > [!IMPORTANT]
 > 🎯 Use at least a single **sup**.
 > 🎯 Use at least a single **sub** element
+
+### Representing computer code [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features#representing_computer_code)
+
+`<code>`: For marking up generic pieces of computer code.\
+`<pre>`: For retaining whitespace (generally code blocks).\
+`<var>`: For specifically marking up variable names.\
+`<kbd>`: For marking up keyboard (and other types of) input entered into the computer.\
+`<samp>`: For marking up the output of a computer program.
+
+> [!IMPORTANT]
+> 🎯 Either find a place for them in your page, or in case it was _meaningless_, add a simple page where you use all those elements `code, pre, ...`, and link it in the footer element in your home page of the new created projects.
