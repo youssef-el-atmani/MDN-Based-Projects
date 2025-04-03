@@ -435,6 +435,13 @@ It used mostly like:
 > [!IMPORTANT]
 > 🎯 Use the `hr` element at least once.
 
+### ✅💻 03 - Qatayef
+
+Qatayef is a web page that will show you step by step how to prepare the well know Lebanese recipe named Qatayef.
+
+- [code](./html-stage/03-qatayef)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/03-qatayef/index.html)
+
 ## Advanced text features
 
 > For more details:\
