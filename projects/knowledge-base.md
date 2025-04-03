@@ -539,3 +539,14 @@ it can include various types of contact information, such as:
 > - Email
 >
 > 🎯 If you have some article based content such as blog, add an address for it that contain the contact info for the writer.
+
+### Superscript and subscript
+
+They are useful when writing special mathematical formulas, or chemical formulas:\
+
+- Rand equation: x<sup>3</sup> + 3x<sup>2</sup> + 7x + 8 = 0 **sup element**
+- Sugar Formula: C<sub>12</sub>H<sub>22</sub>0<sub>11</sub> **sub element**
+
+> [!IMPORTANT]
+> 🎯 Use at least a single **sup**.
+> 🎯 Use at least a single **sub** element
