@@ -502,3 +502,40 @@ It goes with a **title** attribute, here is a simple example of how to use it:
 > [!IMPORTANT]
 > 🎯 Use at least a single acronym and wrap it in a `abbr` element.
 > 🎯 Use at least a single abbreviation and give it an expansion with the `title` attr.
+
+### Marking up contact details
+
+It is done using the `<address>` element.
+
+```html
+<!-- Example of its use -->
+<p>Contact the author of this page:</p>
+
+<address>
+  <a href="mailto:youssef@example.com">youssef@example.com</a><br />
+  <a href="tel:+14155550132">+1 (415) 555‑0132</a> <br />
+  <a href="http://youssef-el-atmani.info">www.youssef-el-atmani.info</a>
+
+  Hay Erraha, <br />
+  Berrechid. <br />
+  26100 <br />
+</address>
+```
+
+it can include various types of contact information, such as:
+
+- Email Addresses: Typically represented using the `mailto:` link.
+- Phone Numbers: Usually represented using the `tel:` link.
+- Physical Addresses: This can include street addresses, city, state, and postal codes.
+- Web Addresses (URLs): Links to websites or social media profiles.
+
+> [!NOTE]
+> It is typically used within the context of an `<article>` or `<footer>` element.
+
+> [!IMPORTANT]
+> 🎯 Use the `address` element in your footer for your contact data
+>
+> - GitHub
+> - Email
+>
+> 🎯 If you have some article based content such as blog, add an address for it that contain the contact info for the writer.
