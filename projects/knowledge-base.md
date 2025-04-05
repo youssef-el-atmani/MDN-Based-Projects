@@ -568,3 +568,28 @@ They are useful when writing special mathematical formulas, or chemical formulas
 
 > [!IMPORTANT]
 > 🎯 Either find a place for them in your page, or in case it was _meaningless_, add a simple page where you use all those elements `code, pre, ...`, and link it in the footer element in your home page of the new created projects.
+
+### Marking up times and dates
+
+HTML provides the `<time>` element for marking up times and dates in a machine-readable format.
+
+As an example:
+
+```HTML
+<time datetime="2025-04-05"> 05 / 04 / 2025</time>
+```
+
+The time element represents its contents, along with a machine-readable form of those contents in the datetime attribute. The kind of content is limited to various kinds of dates, times, time-zone offsets, and durations.\
+
+The datetime attribute may be present. If present, its value must be a representation of the element's contents in a machine-readable format.\
+
+The datetime value of a time element is the value of the element's datetime content attribute, if it has one, otherwise the child text content of the time element.\
+
+> [!NOTE]
+> A time element that does not have a datetime content attribute must not have any element descendants.
+
+> [!IMPORTANT]
+> 🎯 Use the `time` element at least once.
+> Possible use cases:
+>
+> - Use it in the footer for the time of completing each project.
