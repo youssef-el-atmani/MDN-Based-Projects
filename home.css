@@ -1,4 +1,4 @@
-body {
+/* body {
   width: 70ch;
   margin: auto;
 }
@@ -15,19 +15,19 @@ h1 {
   text-align: center;
   color: #003049;
   background-color: #fdf0d5;
-}
+} */
 /* For projects lists */
 /* To make the last project built appears the first */
-.projects-list {
+/* .projects-list {
   display: flex;
   flex-direction: column-reverse;
   background-color: #f1faee;
   border-radius: 7px;
   padding-top: 7px;
   padding-bottom: 7px;
-}
+} */
 
-.about {
+/* .about {
   color: #00a896;
 }
 .projects-list a {
@@ -37,4 +37,4 @@ h1 {
 .projects-list a:hover {
   color: #1d3557;
   text-decoration: dashed;
-}
+} */
