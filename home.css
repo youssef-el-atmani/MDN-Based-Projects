@@ -22,7 +22,6 @@ h1 {
   display: flex;
   flex-direction: column-reverse;
   background-color: #f1faee;
-  /* padding: 7px; */
   border-radius: 7px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -37,6 +36,5 @@ h1 {
 }
 .projects-list a:hover {
   color: #1d3557;
-  /* font-weight: bold; */
   text-decoration: dashed;
 }
