@@ -12,6 +12,11 @@ Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects
 > \
 > I would like to say that I am not a complete beginner, that's because I was learning Web Dev since 2021, but I've never get too far because I've never committed completely to any of the previous resources that I used.
 
+> [!NOTE]
+> The following repo is for my personal use only, I am not creating it with the attention to be used by others,
+> But everyone is welcome to use it however they like.\
+> As long as they do not do any harm to anyone; _I just felt that I need to say that, so that I wont be responsible if it used badly, even though I can't think that it can be used in a harmful way_.
+
 ## About
 
 These are not arbitrary projects:\
