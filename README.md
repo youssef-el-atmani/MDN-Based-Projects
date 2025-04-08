@@ -22,7 +22,7 @@ Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects
 These are not arbitrary projects:\
 I did create that projects-system to solve many problems that I had in the past when I tried to learn web development.\
 
-I will follow something I named it Cumulative Learning, it is somehow intersect with its original meaning,\
+I will follow something I named it **Cumulative Learning**, it is somehow intersect with its original meaning,\
 But all what it does, is simply whenever I learn something new, I will create a new project that cover that new stuffs, plus all the old stuffs that I've acquired.\
 It may sound slow, and it is slow, but to name few of the reasons that I believe that it worth it is:
 
