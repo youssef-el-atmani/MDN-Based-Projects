@@ -38,3 +38,32 @@ h1 {
   color: #1d3557;
   text-decoration: dashed;
 } */
+
+.basmalah {
+  background-color: #adb5bd;
+  color: white;
+  padding: 31px;
+}
+.basmalah p {
+  margin: 0;
+  text-align: center;
+}
+.basmalah > p[lang="ar"] {
+  margin-bottom: 7px;
+  font-size: 1.3rem;
+  font-family: Tajawal, Tahoma;
+}
+.english-basmalah {
+  color: #212529;
+}
+.english-basmalah:hover {
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+.anchor-arrow {
+  color: #ffffff;
+}
