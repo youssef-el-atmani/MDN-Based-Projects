@@ -67,3 +67,35 @@ body {
 .anchor-arrow {
   color: #ffffff;
 }
+
+/* Header content */
+.header-content {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ced4da;
+  padding: 7px 17px;
+  /* the following list of fonts are taken from the mdn-web-docs website using the dev-tool */
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* logo */
+.logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.logo p {
+  font-family: 21px;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+}
+.main-nav ul {
+  margin: 0;
+}
