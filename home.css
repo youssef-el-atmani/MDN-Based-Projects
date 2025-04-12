@@ -129,6 +129,11 @@ h1 {
   color: #343a40;
 }
 
+#projects-name-note {
+  background-color: #ffd7ba;
+  padding: 1px 7px;
+  border-radius: 7px;
+}
 .projects-list {
   display: flex;
   flex-direction: column-reverse;
