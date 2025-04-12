@@ -4,7 +4,7 @@ Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects
 
 > [!WARNING]
 > Based on the name **MDN-Based-Projects**, someone may think that this repository has some **direct relation** to the well known [MDN](https://developer.mozilla.org/en-US/), _but that is not the case_.\
-> Everything included here has an _indirect relation_ that I have created by my own. And it is not monitored my MDN by any mean.
+> Everything included here has an _indirect relation_ that I have created by my own. And it is not monitored by MDN by any mean.
 > \
 > \
 > That _indirect relation_ is as follow:\
