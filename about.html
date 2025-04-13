@@ -5,65 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About MDN-BP</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <style>
-    body {
-      width: 60ch;
-      font-size: 1.1rem;
-      margin: auto;
-    }
+  <link rel="stylesheet" href="home.css">
+  
+  <!-- google font -->
+  <link
+  href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap"
+  rel="stylesheet"
+  />
 
-    h1 {
-      text-align: center;
-      color: #003049;
-      background-color: #fdf0d5;
-      border-bottom: solid 2px #003049;
-      margin-top: 37px;
-      margin-bottom: 0;
-      padding: 11px 0;
-    }
-    
-    [aria-label="main navigation"] {
-      text-align: center;
-      background-color: #fdf0d5;
-      padding: 3px;
-    }
-    [aria-label="main navigation"]>a {
-      color: #184e77;
-
-    }
-    
-    h2 {
-      color: #00a896;
-      margin-bottom: 7px;
-      margin-top: 0;
-    }
-
-    /* Related to the main content */
-    main {
-      border-bottom: solid #184e77 2px;
-      margin-top: 27px;
-    }
-
-    main p {
-      margin: 0;
-    }
-
-    main>.about-content {
-      color: #184e77;
-      background-color: #d8f3dc;
-      padding: 7px;
-    }
-
-  </style>
 </head>
 <body>
   <header>
-    <h1>MDN Based Projects</h1>
+    <div class="basmalah">
+      <p lang="ar">بِاسم اللّهِ الرَّحمنِ الرَّحيم</p>
+      <p>
+        <a
+          title="To understand why I include the Basmalah in almost every page, follow this link"
+          class="english-basmalah"
+          href="https://islamqa.info/en/answers/21722/what-is-the-meaning-of-the-basmalah"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          In the name of <strong>Allah</strong>, the Most Gracious, the Most
+          Merciful
+          <span class="anchor-arrow">...↗</span>
+        </a>
+      </p>
+    </div>
+    <div class="header-content">
+      <div class="logo">
+        <img
+          src="./assets/mdn-based-projects-logo.png"
+          width="64px"
+          height="64px"
+          alt="the logo"
+        />
+        <p>MDN-Based-Projects</p>
+      </div>
+      <nav class="main-nav" aria-label="main navigation">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <nav aria-label="main navigation">
-    <a href="./index.html">Projects Home</a>
-  </nav>
-
   <main>
     <h2>An Overview</h2>
     <div class="about-content">
