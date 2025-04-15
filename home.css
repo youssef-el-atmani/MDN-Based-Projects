@@ -136,6 +136,13 @@ h1 {
   padding: 1px 7px;
   border-radius: 7px;
 }
+
+#projects-list-section h2 {
+  color: #212529;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
 .projects-list {
   display: flex;
   flex-direction: column-reverse;
@@ -143,6 +150,7 @@ h1 {
   border-radius: 7px;
   padding-top: 7px;
   padding-bottom: 7px;
+  margin-top: 7px;
 
   /* font-weight: 600; */
 }
