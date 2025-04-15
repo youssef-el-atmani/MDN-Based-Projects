@@ -311,7 +311,7 @@ It's considered _best practice_ to _begin_ each section with a **heading**; also
 > A **general rule** is that the `section` element is appropriate only if the element's contents would be listed explicitly in the document's **outline**.
 
 > [!IMPORTANT]
-> 🎯 The section should have a _heading_
+> 🎯 The section should have a _heading_\
 > Use either `aria-label` or `aria-labelledby` attributes.
 
 #### Other sources
@@ -366,7 +366,7 @@ Some use Cases:
 The `<nav>` HTML element represents a section of a page whose purpose is to provide **navigation links**, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
 
 > [!IMPORTANT]
-> 🎯 Include the `nav` inside the header,
+> 🎯 Include the `nav` inside the header,\
 > It should include:
 >
 > - `projects home` button
@@ -401,7 +401,7 @@ You have two options:
 > use `DIVS` only when there is no better _semantic solution_ and try to **reduce** their usage to the minimum otherwise you'll have a hard time updating and maintaining your documents.
 
 > [!IMPORTANT]
-> 🎯 Use the `div` and `span` element only if you need to, with a suitable class.
+> 🎯 Use the `div` and `span` element only if you need to, with a suitable class.\
 > Don't force yourself to use them, since they are well known elements.
 
 ### Line breaks & horizontal rules
@@ -473,7 +473,7 @@ The **q** element must not be used in place of quotation marks that do not repre
 > By **WHATWG:** The use of `q` elements to mark up quotations is entirely _optional_; using **explicit quotation punctuation** without **q** elements is just as correct.
 
 > [!IMPORTANT]
-> 🎯 Use at least a single `q` element
+> 🎯 Use at least a single `q` element.
 
 ### Abbreviations
 
@@ -507,7 +507,7 @@ It goes with a **title** attribute, here is a simple example of how to use it:
 ```
 
 > [!IMPORTANT]
-> 🎯 Use at least a single acronym and wrap it in a `abbr` element.
+> 🎯 Use at least a single acronym and wrap it in a `abbr` element.\
 > 🎯 Use at least a single abbreviation and give it an expansion with the `title` attr.
 
 ### Marking up contact details
@@ -555,7 +555,7 @@ They are useful when writing special mathematical formulas, or chemical formulas
 - Sugar Formula: C<sub>12</sub>H<sub>22</sub>0<sub>11</sub> **sub element**
 
 > [!IMPORTANT]
-> 🎯 Use at least a single **sup**.
+> 🎯 Use at least a single **sup**.\
 > 🎯 Use at least a single **sub** element
 
 ### Representing computer code [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features#representing_computer_code)
@@ -589,7 +589,7 @@ The datetime value of a time element is the value of the element's datetime cont
 > A time element that does not have a datetime content attribute must not have any element descendants.
 
 > [!IMPORTANT]
-> 🎯 Use the `time` element at least once.
+> 🎯 Use the `time` element at least once.\
 > Possible use cases:
 >
 > - Use it in the footer for the time of completing each project.
