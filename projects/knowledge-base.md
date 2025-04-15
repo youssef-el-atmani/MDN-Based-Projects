@@ -282,8 +282,8 @@ Ideally it shouldn't be nested within other elements.
 > It could wrap the video you want to watch, or the main story you're reading, or the map you want to view, or the news headlines, etc. This is the one part of the website that definitely will vary from page to page!
 
 > [!IMPORTANT]
-> 🎯 Use the `main` element a single time in your pages.
-> 🎯 It should be a _direct_ child to the `body` elem.
+> 🎯 Use the `main` element a single time in your pages.\
+> 🎯 It should be a _direct_ child to the `body` elem.\
 > 🎯 Use it to wrap the _main page content_.
 
 ### article [MDN^](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) [WHATWG^](https://html.spec.whatwg.org/multipage/sections.html#the-article-element)
