@@ -695,10 +695,10 @@ When you are linking to a resource that's to be downloaded rather than opened in
 ```
 
 > [!IMPORTANT]
-> 🎯 For links, keep the different color, and the underlying line. you can either use the default style, or make your own, but always keep that, since the users are used to that: _Links are underlined and have different color_.
-> 🎯 Keep the link text as short and clear as possible.
-> 🎯 Do not use the `same link text` to link to different places within the same page.
-> 🎯 Style the link with a different color and an underlined it, or keep the default styling, unless your link is living in a place where it is obvious that it is a link.
+> 🎯 For links, keep the different color, and the underlying line. you can either use the default style, or make your own, but always keep that, since the users are used to that: _Links are underlined and have different color_.\
+> 🎯 Keep the link text as short and clear as possible.\
+> 🎯 Do not use the `same link text` to link to different places within the same page.\
+> 🎯 Style the link with a different color and an underlined it, or keep the default styling, unless your link is living in a place where it is obvious that it is a link.\
 > 🎯 When linking to non-HTML resources — You should leave a clear signposts
 
 #### When to open links into a new tab [M^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links#when_to_open_links_in_a_new_tab)
