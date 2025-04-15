@@ -707,5 +707,5 @@ When you are linking to a resource that's to be downloaded rather than opened in
 > If you do open links in new tabs, then it is recommended that you provide cues for these links, such as an icon next to the link text [empty link↗]().
 
 > [!IMPORTANT]
-> 🎯 Open internal links in the **same tab**,
-> 🎯 and external links in **new tabs**, with the following icon **↗**,\
+> 🎯 Open internal links in the **same tab**,\
+> 🎯 and external links in **new tabs**, with the following icon **↗**,
