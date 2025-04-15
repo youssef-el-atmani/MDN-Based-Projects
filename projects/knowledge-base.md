@@ -593,3 +593,119 @@ The datetime value of a time element is the value of the element's datetime cont
 > Possible use cases:
 >
 > - Use it in the footer for the time of completing each project.
+
+## Creating links [M^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links)
+
+Links (also known as hyperlinks) are really important — they are what makes the Web a web.
+
+> [!NOTE]
+> A **URL** can point to HTML files, text files, images, text documents, video and audio files, or anything else that lives on the Web.
+
+### Block level links
+
+> You can wrap anything within an anchor element, even block element such as heading elements or paragraphs, even whole sections.\
+> As long as there is no interactive content within (e.g., buttons or other links).
+
+For example you can convert an `h1` element into a _link_ by wrapping it by an `anchor` element.
+
+> [!IMPORTANT]
+> 🎯 Convert _block level_ elements such as header elements or sections if needed, as long as they do not contain interactive elements.
+
+### title attribute
+
+The title contains additional information about the link, such as which kind of information the page contains, or things to be aware of on the website.
+
+> [!NOTE]
+> The **title** information is only accessible when hovered by the mouse cursor, which mean it will be hard to get that when using a keyboard or a touching screen.\
+> So if that title information is something really important to all users, you should for example include that information in a _regular text_ rather than using the **title** attribute.
+
+> [!IMPORTANT]
+> 🎯 I think that the _title element_ should be avoided, but just use it once to stay aware of it.
+
+### Document fragments
+
+> Dictionary: A fragment is a small piece or a part, especially when broken from something whole.
+
+You can also link to a **document fragment** using the `anchor` element alongside with the `id` attribute.\
+
+This is how you can navigate between different section within the same page, or link to specific section rather than the whole page; _rather than the start of the page_.
+
+```html
+<!-- Some place at the top of the page-->
+<p>
+  The <a href="#Mailing_address">company mailing address</a> can be found at the
+  bottom of this page.
+</p>
+
+<!-- The bottom of the page -->
+<h2 id="Mailing_address">Mailing address</h2>
+<p>The mailing address section</p>
+```
+
+> [!IMPORTANT]
+> 🎯 If you have a text content based project, create a _table of content_ that links to different sections of your project
+
+### Absolute VS Relative URLs
+
+#### Absolute URL
+
+It points to a location defined by its absolute location on the _web_, including **protocol** and **domain name**.\
+An **absolute URL** will always point to the same location, no matter where it's used.
+
+#### Relative URL
+
+It points to a location that is relative to the file you are linking from.
+
+### Link best practices [M^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links#link_best_practices)
+
+- Use clear link wording, it is helpful for:
+
+  - Search Engines,
+  - Accessibility,
+  - Descriptive link is useful for _visual readers_.
+    - ✅ **Good link _text_:** [Download Firefox](https://www.mozilla.org/en-US/firefox/).
+    - 🚫 **Bad link _text_:** [Click here](https://www.mozilla.org/en-US/firefox/) to download firefox.
+
+- Don't repeat the URL as part of the link text.
+  - URLs looks ugly,
+  - and even sounds uglier when screen readers read them letter by letter.
+- Don't say "link" or "link to" in the _link text_
+  - Screen readers tell people there's a link.
+  - Visual readers rely on the well known styling of a link
+    - styled in a different color and underlined. (this convention generally shouldn't be broken, as users are used to it).
+- Keep your link text as short as possible
+  - this is helpful because screen readers need to interpret the entire link text.
+    - a _shorter_ link text is easier to understand.
+- When linking to non-HTML resources — You should leave a clear signposts
+  - you should add clear wording to the link text about what is going to happen.
+    - ex1: [Watch the video (stream opens in separate tab, HD quality)]()
+    - ex2: [Download the sales report (PDF, 10MB)]()
+
+#### Download attribute
+
+When you are linking to a resource that's to be downloaded rather than opened in the browser, you can use the download attribute to provide a default save filename.
+
+```html
+<a
+  href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+  download="firefox-latest-64bit-installer.exe"
+>
+  Download Latest Firefox for Windows (64-bit) (English, US)
+</a>
+```
+
+> [!IMPORTANT]
+> 🎯 For links, keep the different color, and the underlying line. you can either use the default style, or make your own, but always keep that, since the users are used to that: _Links are underlined and have different color_.
+> 🎯 Keep the link text as short and clear as possible.
+> 🎯 Do not use the `same link text` to link to different places within the same page.
+> 🎯 Style the link with a different color and an underlined it, or keep the default styling, unless your link is living in a place where it is obvious that it is a link.
+> 🎯 When linking to non-HTML resources — You should leave a clear signposts
+
+#### When to open links into a new tab [M^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links#when_to_open_links_in_a_new_tab)
+
+> [!NOTE]
+> If you do open links in new tabs, then it is recommended that you provide cues for these links, such as an icon next to the link text [empty link↗]().
+
+> [!IMPORTANT]
+> 🎯 Open internal links in the **same tab**,
+> 🎯 and external links in **new tabs**, with the following icon **↗**,\
