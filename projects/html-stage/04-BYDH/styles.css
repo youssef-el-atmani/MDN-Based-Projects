@@ -1,0 +1,69 @@
+body {
+  background-color: #f8f9fa;
+  background-color: #fff;
+  margin: 0;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* Basmalah */
+.basmalah {
+  background-color: #adb5bd;
+  color: white;
+  padding: 31px;
+}
+.basmalah p {
+  margin: 0;
+  text-align: center;
+}
+.basmalah > p[lang="ar"] {
+  margin-bottom: 7px;
+  font-size: 1.3rem;
+  font-family: Tajawal, Tahoma;
+  font-weight: bold;
+}
+.english-basmalah {
+  color: #212529;
+}
+.english-basmalah:hover {
+  color: #ffffff;
+}
+.anchor-arrow {
+  color: #ffffff;
+}
+
+/* Header content */
+.header-content {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ced4da;
+  padding: 7px 17px;
+  /* the following list of fonts are taken from the mdn-web-docs website using the dev-tool */
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* logo */
+.logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.logo p {
+  font-family: 21px;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+}
+.main-nav ul {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
