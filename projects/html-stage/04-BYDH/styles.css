@@ -1,6 +1,9 @@
+/* some color variables */
+:root {
+  --orange: #c6661c;
+}
+
 body {
-  background-color: #f8f9fa;
-  background-color: #fff;
   margin: 0;
   font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -66,4 +69,35 @@ body {
 
 body {
   margin: 0;
+}
+
+/* BYDH Header */
+.bydh-header {
+  background-color: var(--orange);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* logo */
+.bydh-logo {
+  color: #fff;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: bold;
+}
+
+/* main website navigation */
+.bydh-header ul {
+  display: flex;
+  gap: 21px;
+  list-style: none;
+  color: white;
+}
+.bydh-header ul a {
+  color: #fff;
+}
+.bydh-header ul a:hover {
+  text-decoration-color: #212529;
 }
