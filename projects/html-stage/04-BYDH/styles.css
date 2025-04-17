@@ -11,9 +11,9 @@ body {
 }
 /* Basmalah */
 .basmalah {
-  background-color: #adb5bd;
+  background-color: #3490a7;
   color: white;
-  padding: 31px;
+  padding: 11px 7px 7px;
 }
 .basmalah p {
   margin: 0;
@@ -24,6 +24,12 @@ body {
   font-size: 1.3rem;
   font-family: Tajawal, Tahoma;
   font-weight: bold;
+}
+.basmalah a {
+  color: white;
+}
+.basmalah a:hover {
+  text-decoration-color: #212529;
 }
 .english-basmalah {
   color: #212529;
