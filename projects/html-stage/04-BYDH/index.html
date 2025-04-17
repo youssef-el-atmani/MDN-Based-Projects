@@ -20,6 +20,41 @@
       href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      main {
+        flex-grow: 1;
+        width: 100%;
+        background-image: url("./assets/home.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .bydh {
+        color: #fff;
+        font-size: 250px;
+        font-weight: bold;
+        opacity: 60%;
+        margin: 0;
+      }
+      .quote {
+        background-color: #d9d9d959;
+        color: #1475ba;
+        font-size: 96px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+        padding: 17px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -75,5 +110,9 @@
         </nav>
       </div>
     </header>
+    <main>
+      <p class="bydh"><abbr>BYDH</abbr></p>
+      <p class="quote">Your Trusted <br />Expert</p>
+    </main>
   </body>
 </html>
