@@ -107,3 +107,31 @@ body {
 .bydh-header ul a:hover {
   text-decoration-color: #212529;
 }
+
+/* footer */
+footer .upper-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px 17px;
+  font-size: 0.75rem;
+  background-color: #ced4da;
+}
+
+footer address {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+footer p {
+  margin: 2px;
+}
+
+footer .bottom-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background-color: #adb5bd;
+  padding: 7px;
+}

@@ -25,11 +25,12 @@
       body {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
       }
       main {
         flex-grow: 1;
         width: 100%;
+        /* min-height: 80vh; */
         background-image: url("./assets/home.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -40,7 +41,7 @@
       }
       .bydh {
         color: #fff;
-        font-size: 250px;
+        font-size: 200px;
         font-weight: bold;
         opacity: 60%;
         margin: 0;
@@ -48,7 +49,7 @@
       .quote {
         background-color: #d9d9d959;
         color: #1475ba;
-        font-size: 96px;
+        font-size: 76px;
         font-weight: bold;
         text-align: center;
         margin: 0;
@@ -91,5 +92,36 @@
       <p class="bydh"><abbr>BYDH</abbr></p>
       <p class="quote">Your Trusted <br />Expert</p>
     </main>
+    <footer>
+      <div class="upper-part">
+        <div class="left">
+          <p>Term of service</p>
+          <p>Contact</p>
+          <p>C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></p>
+        </div>
+        <div class="middle">
+          <abbr title="build your dream home">BYDH</abbr> – Every dream home
+          starts with a simple plan.
+          <p>x<sup>2</sup> + 2x + 3</p>
+        </div>
+
+        <address>
+          <p>Morocco, Rabat,</p>
+          <a href="tel:+2126000000">+2126000000</a>
+          <a href="mailto:contact@bydh.org">contact@bydh.org</a>
+        </address>
+      </div>
+      <div class="bottom-part">
+        <p>Youssef EA 1446 ©</p>
+        <a href="https://github.com/youssef-el-atmani">
+          <img
+            src="./assets/github.png"
+            alt="github icon"
+            width="24px"
+            height="24px"
+          />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
