@@ -1,5 +1,8 @@
 # Building Your Dream House
 
+- [Live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/04-BYDH/)
+- This project was completed on 20 Shawwal 1446 AH
+
 It is a website that will show you step by step how to build your new home the right way, that goes from the house location until the right building materials and everything in between.
 
 ## Attributions
