@@ -709,3 +709,10 @@ When you are linking to a resource that's to be downloaded rather than opened in
 > [!IMPORTANT]
 > 🎯 Open internal links in the **same tab**,\
 > 🎯 and external links in **new tabs**, with the following icon **↗**,
+
+### ✅💻 04 - BYDH
+
+BYDH-**Build Your Dream Home**, is a website that will walk you through all the steps that you should take when you want to build a house.
+
+- [code](./html-stage/04-BYDH/)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/04-BYDH/index.html)
