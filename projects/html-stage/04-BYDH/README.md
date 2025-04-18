@@ -5,6 +5,24 @@
 
 It is a website that will show you step by step how to build your new home the right way, that goes from the house location until the right building materials and everything in between.
 
+## The Story behind this project
+
+I was thinking about a project to build as I was leaving my house, when I saw a house under construction. That moment inspired this project.
+
+## Project Goal
+
+To practice What I've learned at [MDN](https://developer.mozilla.org/en-US/) until now.\
+ That include everything found in the following articles that belongs to [Structuring content with HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content):
+
+- [Basic HTML syntax](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax)
+- [Web page metadata](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata)
+- [Headings and paragraphs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs)
+- [Emphasis and importance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance)
+- [Lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists)
+- [Structuring documents](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents)
+- [Advanced text features](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features)
+- [Creating links](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links)
+
 ## Attributions
 
 - **favicon** from [flaticon](https://www.flaticon.com/fr/icone-gratuite/parametres-avec-hammer_81023?term=hammer&page=1&position=4&origin=search&related_id=81023)
