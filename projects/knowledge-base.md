@@ -718,3 +718,52 @@ BYDH-**Build Your Dream Home**, is a website that will walk you through all the 
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/04-BYDH/index.html)
 
 ## HTML images
+
+### file image name
+
+Search engines also read image filenames and count them towards SEO.\
+Therefore, you should give your image a descriptive filename; _dinosaur.jpg_ is **better** than _img835.png_.
+
+> [!IMPORTANT]
+> 🎯 Give images a descriptive name
+
+> [!WARNING]
+> Never point the `src` attribute at an image hosted on someone else's website without permission. This is called "hotlinking".
+
+> [!NOTE]
+> Elements like `<img>` and `<video>` are sometimes referred to as replaced elements. This is because the element's content and size are defined by an external resource (like an image or video file)
+
+### Alternative Text
+
+Its value is supposed to be a textual description of the image, for use in situations where the image cannot be seen/displayed or takes a long time to render because of a slow internet connection.
+
+> [!NOTE]
+> If you are using HTML img for decoration, use an empty `alt`: **alt=""**,\
+> Decorative images are preferred to be added as `background-image` using CSS.
+
+### width and height
+
+Use them so that the content do not jump once the image get downloaded and displayed.\
+Knowing how to use them with responsive displays is an **advanced** topic, only use them for whatever monitor your using.
+
+> [!IMPORTANT]
+> 🎯 Use the **width** and **height** with `img` element
+
+### Caption
+
+To add a caption to an image use the `figure` element along with the `figcaption`.
+
+> [!NOTE]
+> From an **accessibility** viewpoint, captions and alt text have distinct roles. `Captions` benefit even people who can see the image, whereas `alt` text provides the same functionality as an absent image.\
+> Therefore, `captions` and `alt text` shouldn't just say the same thing, because they both appear when the image is gone. Try turning images off in your browser and see how it looks.
+
+> [!IMPORTANT]
+> 🎯 Use the **caption** at least once for an image
+
+### CSS background-image
+
+if an image has meaning, in terms of your content, you should use an HTML image. If an image is purely decoration, you should use CSS background images.
+
+> [!IMPORTANT]
+> 🎯 Include meaningful images using `html images`.
+> 🎯 Include decorative images with `CSS` as **background-images**.
