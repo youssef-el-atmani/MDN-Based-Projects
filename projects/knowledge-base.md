@@ -716,3 +716,5 @@ BYDH-**Build Your Dream Home**, is a website that will walk you through all the 
 
 - [code](./html-stage/04-BYDH/)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/04-BYDH/index.html)
+
+## HTML images
