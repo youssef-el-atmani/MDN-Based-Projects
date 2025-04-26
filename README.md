@@ -2,7 +2,7 @@
 
 Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects/index.html) to see live previews for the projects.
 
-> [!WARNING]
+> [!Note]
 > Based on the name **MDN-Based-Projects**, someone may think that this repository has some **direct relation** to the well known [MDN](https://developer.mozilla.org/en-US/), _but that is not the case_.\
 > Everything included here has an _indirect relation_ that I have created by my own. And it is not monitored by MDN by any mean.
 > \
@@ -10,30 +10,15 @@ Visit the [Projects Home](https://youssef-el-atmani.github.io/MDN-Based-Projects
 > That _indirect relation_ is as follow:\
 > I am currently using [MDN Learn](https://developer.mozilla.org/en-US/docs/Learn_web_development) to learn web development.\
 > And whenever I learn new stuffs, from the **MDN Learn**, I would create a project that cover what I just learned, and all the old stuffs that I've learned at **MDN**: _and that is the only relation between the current project and MDN_.\
-> \
-> I would like to say that I am not a complete beginner, that's because I was learning Web Dev since 2021, but I've never get too far because I've never committed completely to any of the previous resources that I used.
-
-> [!NOTE]
-> This repository is for my personal use only. I didn’t create it with the intention of it being used by others, but everyone is welcome to use it however they like—as long as it doesn't cause harm to anyone. I just felt the need to say this so I’m not held responsible if it's used in a harmful way, even though I can't imagine how it could be.
 
 ## About
 
-These are not arbitrary projects:\
-I did create that projects-system to solve many problems that I had in the past when I tried to learn web development.\
+I created this project system to solve many problems I faced in the
+past while learning web development.
 
-I will follow something I named it **Cumulative Learning**, it is somehow intersect with its original meaning,\
-But all what it does, is simply whenever I learn something new, I will create a new project that cover that new stuffs, plus all the old stuffs that I've acquired.\
-It may sound slow, and it is slow, but to name few of the reasons that I believe that it worth it is:
-
-- MDN has some projects to test the knowledge that we acquire, but it is not enough for me
-- I put a lot of effort to understand something .. and because I don't touch it for a long time I simply forget about it or how to use it
-- Keep consuming information lead to boredom and lack of motivation
-- To use what I know
-- To be comfortable with building stuffs.
-- By time, I will be building some interesting & a bit complex things.
-  As a summary that system of Cumulative-Learning is A way of learning, revising, practicing, and mastering the topics I learn.\
-  And of course to stay motivated and not feeling like I'm burning out.
-  > Once I cover it, I will write, and work with it all the time.
+I follow something I call **Cumulative Learning**. It’s
+similar to the original concept, but with my own twist:
+Every time I learn something _new_, I build a new project that includes the _new skills_ plus everything _I’ve learned before_.
 
 ## Attributions
 
