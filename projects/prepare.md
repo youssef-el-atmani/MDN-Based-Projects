@@ -41,3 +41,32 @@ If the project include some content, and mostly it will, break the content topic
 - Write a description for the project
 - choose a favicon
 - Keep truck of the attributions
+
+## Define the pages
+
+Define the pages that your project website will have, for example:
+
+- Home
+- About
+
+## The Home page
+
+The home page should include:
+
+- The **MDN Lessons** that will be covered,
+- Emphasis the new Lesson that you have just learned
+  - Provide a brief overview to it, and try to explain it briefly from your memory.
+
+## Write General Page Template
+
+That include everything that is sharable across all the website pages
+
+- `head` element,
+- `body` element,
+
+  - `header`,
+  - `nav`,
+  - `footer`.
+
+Fill all the above elements.
+and create the project pages, and distribute the sharable code into them.
