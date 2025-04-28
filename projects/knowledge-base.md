@@ -836,3 +836,28 @@ It is similar to the `HTML video` element, with one difference:
 
 > [!IMPORTANT]
 > 🎯 Use the `audio` element, with the typical attributes.
+
+## Displaying video text tracks [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio#displaying_video_text_tracks)
+
+To display text tracks in a video, we use the `<track>` element, which is a void element, it accept multiple attributes.\
+Here is a list of the attributes it accept:
+
+- **default**: This attribute indicates that the track should be enabled unless the user's preferences indicate that another track is more appropriate. This may only be used on one track element per media element.
+- **kind**: How the text track is meant to be used.\
+  If omitted the _default_ kind is `subtitles`.\
+  If the attribute contains an invalid value, it will use `metadata`.\
+  The following keywords are allowed:
+  - _subtitles_
+  - _captions_
+  - _metadata_: Tracks used by scripts. Not visible to the user.
+- **label**: A user-readable title of the text track which is used by the browser when listing available text tracks.
+- **src**: Address of the track file (`.vtt` file).
+- **srclang**: Language of the track text data. It must be a valid BCP 47 language tag.\
+
+> [!NOTE]
+>
+> - If the **kind** attribute is set to `subtitles`, then **srclang** _must be defined_.
+> - The default value of the **kind** attribute is `subtitles`.
+> - The `<track>` elem should be placed within `<audio>` or `<video>`, but **after all** `<source>` elements.
+
+> For more details, including on how to add labels, read [Adding captions and subtitles to HTML video](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video) by MDN.
