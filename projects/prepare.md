@@ -2,6 +2,14 @@
 
 > here I will store the necessary steps that I should follow when trying to build new project for the MDN-Based-Projects
 
+> [!IMPORTANT]
+> Whenever I will finish a lesson, I will create a simple project, that will cover everything in the [Knowledge-base](./knowledge-base.md), as a simple and straight forward process,\
+> I will apply every section that exist in the [Knowledge-base](./knowledge-base.md), section by section.
+
+## ⚠️ I will ignore everything at the bottom for now. ⚠️❗
+
+---
+
 > [!CAUTION]
 > It is super easy to get too far and _waste your limited time_ on the wrong stuffs,\
 > Do not forget the goal of these projects, **To Practice What You've Learned!**
