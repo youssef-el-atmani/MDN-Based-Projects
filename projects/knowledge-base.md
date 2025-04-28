@@ -767,3 +767,10 @@ if an image has meaning, in terms of your content, you should use an HTML image.
 > [!IMPORTANT]
 > 🎯 Include meaningful images using `html images`.
 > 🎯 Include decorative images with `CSS` as **background-images**.
+
+### ✅💻 05 - Bird Species
+
+A simple website about birds, sharing popular species, fun facts.
+
+- [code](./html-stage/05-generic/plus/index.html)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/05-generic/plus/index.html)
