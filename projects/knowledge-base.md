@@ -774,3 +774,55 @@ A simple website about birds, sharing popular species, fun facts.
 
 - [code](./html-stage/05-generic/plus/index.html)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/05-generic/plus/index.html)
+
+## HTML video
+
+[HTML Video--MDN lesson](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio#the_audio_element)
+
+The `<video>` element allows you to embed a video.
+you can either include the video path in a `src` attr as follow in the open video tag:
+
+```html
+<video src="path.mp4"></video>
+```
+
+or include the path, in a separate `source` element, which is a void element, as follow:
+
+```html
+<video>
+  <source src="path.mp4" type="video/mp4" />
+  <source src="path.webM" type="video/webm" />
+</video>
+```
+
+### attributes
+
+- `src=""`: for the video path.
+- `controls`: Give the users the ability to control the video.
+- `loop`: is a **boolean attr** make the video play again and again: _❗Should be avoided❗_
+- `muted`: is a **boolean attr** Causes the media to play with the sound turned off by default.
+- `poster=""`: The URL of an image which will be displayed before the video is played.
+- `preload=""`: Used for buffering large files; it can take one of three values: `none, auto, metadata`.
+- `width`:
+- `height`:
+
+### Fallback content
+
+It will be displayed if the browser accessing the page doesn't support the `<video>` element, allowing us to provide a fallback for older browsers.
+
+```html
+<video src="rabbit320.webm" controls>
+  <p>
+    Your browser doesn't support HTML video. Here is a
+    <a href="rabbit320.webm">link to the video</a> instead.
+  </p>
+</video>
+```
+
+> [!IMPORTANT]
+> 🎯 Use the **video** element, with the following attributes:
+>
+> - src, controls, muted, width, height, poster.
+>
+> Include the `src` in the `source` element.\
+> Include a **fallback** paragraph.
