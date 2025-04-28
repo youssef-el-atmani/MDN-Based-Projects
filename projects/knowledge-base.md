@@ -826,3 +826,13 @@ It will be displayed if the browser accessing the page doesn't support the `<vid
 >
 > Include the `src` in the `source` element.\
 > Include a **fallback** paragraph.
+
+## HTML audio
+
+It is similar to the `HTML video` element, with one difference:
+
+- it does not support: `width/height`,
+- it does not support: `poster`.
+
+> [!IMPORTANT]
+> 🎯 Use the `audio` element, with the typical attributes.
