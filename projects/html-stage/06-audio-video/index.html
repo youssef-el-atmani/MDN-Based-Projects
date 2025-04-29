@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Youssef El Atmani" />
+    <meta
+      name="description"
+      content="This is a page where I practice how to add Audio and Video into a webpage, and to practice what I had learned with MDN until now"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Audio & Video</title>
+  </head>
+  <body>
+    <header>
+      <div class="basmalah">
+        <p lang="ar">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://islamqa.info/en/answers/21722/what-is-the-meaning-of-the-basmalah"
+          >
+            بِاسم اللّهِ الرَّحمنِ الرَّحيم
+          </a>
+        </p>
+      </div>
+
+      <h1>MDN-Based-Projects: <em>Audio & Video</em></h1>
+    </header>
+    <main>
+      <section aria-label="Table of Content">
+        <h2>Table of Content:</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="#what-is-covered-in-new-lessons"
+                >The new covered lessons</a
+              >
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <a href="#how-to-embed-audio-and-video"
+                    >How to Embed Audio & Video
+                  </a>
+                </li>
+                <li>
+                  <a href="#how-to-add-tracks"> How to Add tracks to Videos </a>
+                </li>
+                <li>
+                  <a href="#practicing-audio-and-video">
+                    Practice Audio & Video
+                  </a>
+                  <ul>
+                    <li><a href="#audio">audio</a></li>
+                    <li><a href="#video">video</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#practice-old-lessons">
+                The practice of the previous covered lessons
+              </a>
+              <ul>
+                <li>
+                  <a href="#lists">Lists</a>
+                  <ul>
+                    <li><a href="#unordered-lists">Unordered Lists</a></li>
+                    <li><a href="#ordered-lists">Ordered Lists</a></li>
+                    <li><a href="#nested-lists">Nested Lists</a></li>
+                    <li><a href="#description-lists">Description Lists</a></li>
+                  </ul>
+                </li>
+                <li><a href="#aside-elem">The aside element</a></li>
+                <li><a href="#hr-elem">The hr element</a></li>
+                <li>
+                  <a href="#quotations">Quotations</a>
+                  <ul>
+                    <li><a href="#inline-quotations">Inline Quotation</a></li>
+                    <li><a href="#blockquote">Blockquote</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#marking-up-contact-details">
+                    Marking Up Contact Details
+                  </a>
+                </li>
+                <li>
+                  <a href="#superscript">Superscript <sup>sup</sup></a>
+                </li>
+                <li>
+                  <a href="#subscript">Subscript <sub>sub</sub></a>
+                </li>
+                <li><a href="#embed-code">Embedding Code</a></li>
+                <li>
+                  <a href="#marking-up-time-and-date">Marking Up Time & Date</a>
+                </li>
+                <li><a href="#adding-images">Adding Images</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section
+        id="what-is-covered-in-new-lessons"
+        aria-label="showing what I have covered in the new lesson"
+      >
+        <h2>The new covered lesson</h2>
+        <section id="how-to-embed-audio-and-video">
+          <h3>How to Embed Audio & Video</h3>
+          <p>
+            The new covered lesson is about how to <em>embed</em> audio and
+            video elements into a webpage <br />
+            for video we use the <strong>video</strong> element, and for audio
+            we use the <strong>audio</strong> element,<br />
+            To embed them correctly, we have multiple attribute that goes insie
+            the <strong> video & audio</strong> opening tags, <br />
+            they accepts almost all the same attributes, except of some
+            attributes, which are: <br />
+            <em>width, height, poster</em><br />
+            and it is obvious why the <b>audio</b> element does not support
+            those attributes. <br />
+            the rest common attributes are:
+          </p>
+          <ul>
+            <li>
+              <strong>controls</strong>: which give the user some interface to
+              control the video and audio
+            </li>
+            <li>
+              <strong>loop</strong>: which makes the audio or the video keep
+              replaying when its finish
+            </li>
+            <li>
+              <strong>muted</strong>: which start the audio or the video muted
+              by default
+            </li>
+            <li>
+              <strong><abbr title="source">src</abbr></strong
+              >: to place the location of the media file
+            </li>
+          </ul>
+          <p>
+            We have another way to add the source of the file, using the
+            <b>source</b> element <br />
+            it is better than the basic <b>src</b> attribute, because we can
+            define multiple formats, <br />
+            while we can't do that that with the <b>src</b> attribute, <br />
+            and also we can specify the type of the linked media-file using the
+            <b>type</b> attribute. <br />
+            That type attr inform the browser of the format of the file it hold,
+            <br />
+            so that the browser can now if it can play that type of media or not
+            before even to media-file.
+          </p>
+        </section>
+
+        <section aria-label="Show how to add tracks to videos">
+          <h3 id="how-to-add-tracks">How to Add tracks to Videos</h3>
+          <p>
+            I also learned how can I add captions and subtitles to a video
+            <br />
+            it is done using the <b>track</b> element, <br />
+            as MDN informed, the <b>track</b> element should be placed under the
+            <b>sources</b> elements. <br />
+          </p>
+          <p>It accept multiple attributes:</p>
+          <ul>
+            <li>
+              <strong><abbr title="source">src</abbr></strong
+              >: the location of the track file
+            </li>
+            <li>
+              <strong><abbr title="source language">srclang</abbr></strong
+              >: The language of which the track is written
+            </li>
+            <li><strong>kind</strong>: is it a caption, subtitles, or what?</li>
+            <li>
+              <strong>label</strong>: Give a label for the language of the
+              track.
+            </li>
+            <li>
+              <strong>default</strong>: which makes that track plays
+              automatically with the video
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section aria-label="practice the latest lesson covered">
+        <h2 id="practicing-audio-and-video">Practice Audio & Video</h2>
+
+        <h3 id="audio">Audio</h3>
+        <figure>
+          <audio controls>
+            <source src="assets/media/birds-chirping.mp3" type="audio/mp3" />
+          </audio>
+          <figcaption>
+            Birds Chirping <br />
+            Sound Effect by
+            <a
+              href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=75156"
+              target="_blank"
+              rel="noopener noreferrer"
+              >freesound_community</a
+            >
+            from
+            <a
+              href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=75156"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Pixabay</a
+            >
+          </figcaption>
+        </figure>
+
+        <h3 id="video">Video</h3>
+        <figure>
+          <video width="500" height="300" controls>
+            <source src="assets/media/pigeon.mp4" type="video/mp4" />
+            <track
+              src="assets/tracks/caption-ar.vtt"
+              kind="captions"
+              default
+              srclang="ar"
+              label="Arabic"
+            />
+            <track
+              src="assets/tracks/subtitles-en.vtt"
+              kind="subtitles"
+              srclang="en"
+              label="English"
+            />
+          </video>
+
+          <figcaption>
+            Video by
+            <a
+              href="https://pixabay.com/users/nickype-10327513/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=145705"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nicky ❤️🌿🐞🌿❤️
+            </a>
+            from
+            <a
+              href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=145705"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pixabay
+            </a>
+            <br />
+            Beautiful Pigeon near a river
+          </figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="#practice-old-lessons">
+        <h2 id="practice-old-lessons">Practicing Previous Lessons:</h2>
+
+        <section aria-label="practicing Html lists elements">
+          <h3 id="lists">Lists</h3>
+
+          <h4 id="unordered-lists">Unordered List</h4>
+          <ul>
+            <li>lorem6</li>
+            <li>lorem6</li>
+            <li>lorem6</li>
+            <li>lorem6</li>
+          </ul>
+
+          <h4 id="ordered-lists">Ordered List</h4>
+          <ol>
+            <li>List 01</li>
+            <li>List 02</li>
+            <li>List 03</li>
+            <li>List 04</li>
+            <li>List 05</li>
+            <li>List 06</li>
+            <li>List 07</li>
+          </ol>
+
+          <h4 id="nested-lists">Nested lists</h4>
+          <ul>
+            <li>something here</li>
+            <li>
+              something here
+              <ol>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+              </ol>
+            </li>
+            <li>something here</li>
+          </ul>
+
+          <h4 id="description-lists">Description Lists</h4>
+          <dl>
+            <dt>Lorem, ipsum.</dt>
+            <dd>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+              itaque.
+            </dd>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing.</dd>
+
+            <dt>Lorem, ipsum dolor.</dt>
+            <dd>Lorem ipsum dolor sit amet.</dd>
+            <dd>Omnis officia aperiam nesciunt quibusdam!</dd>
+            <dd>Molestias soluta natus quos necessitatibus.</dd>
+          </dl>
+        </section>
+
+        <section>
+          <h3 id="aside-elem">Aside elements</h3>
+          <aside>Everything here is only for practice</aside>
+          <hr />
+          <aside>
+            Everything here is either written explicitly by me, <br />
+            Or I use the <strong>lorem</strong> in order to generate some text
+            to fill something.
+          </aside>
+          <hr />
+          <aside>
+            Author: Youssef El Atmani, You can find me on
+            <a
+              href="https://github.com/youssef-el-atmani"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github..↗ </a
+            >.
+          </aside>
+          <hr />
+          <aside>
+            To learn more about web development, and why not become a web
+            developer, visit
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MDN learn..↗
+            </a>
+            . <br />
+            It is free, so don't hesitate to give it a try!
+          </aside>
+        </section>
+
+        <section aria-label="practice the horizontal rule">
+          <h3 id="hr-elem">The Horizontal Rule</h3>
+          <p>Here I am talking on a topic</p>
+          <hr />
+          <p>Give me your attention, because I have change the topic</p>
+          <hr />
+          <p>
+            I have used the
+            <strong><abbr title="horizontal rule">hr</abbr></strong> element to
+            show that there is a thematic change.
+          </p>
+        </section>
+
+        <section aria-label="revising how the quotation elements">
+          <h3 id="quotations">Quotations</h3>
+          <h4 id="inline-quotations">Inline Quotations</h4>
+          <p>
+            Look, I am writing about something,
+            <q cite="https://en.wikipedia.org/wiki/Planet">
+              A planet is a large, rounded astronomical body that is generally
+              required to be in orbit around a star, stellar remnant, or brown
+              dwarf, and is not one itself.
+            </q>
+          </p>
+
+          <h4 id="blockquote">Blockquote Quotations</h4>
+          <blockquote cite="https://en.wikipedia.org/wiki/Planet">
+            A planet is a large, rounded astronomical body that is generally
+            required to be in orbit around a star, stellar remnant, or brown
+            dwarf, and is not one itself.[1] The Solar System has eight planets
+            by the most restrictive definition of the term: the terrestrial
+            planets Mercury, Venus, Earth, and Mars, and the giant planets
+            Jupiter, Saturn, Uranus, and Neptune. The best available theory of
+            planet formation is the nebular hypothesis, which posits that an
+            interstellar cloud collapses out of a nebula to create a young
+            protostar orbited by a protoplanetary disk. Planets grow in this
+            disk by the gradual accumulation of material driven by gravity, a
+            process called accretion.
+          </blockquote>
+        </section>
+
+        <section aria-label="practice marking up contacts details">
+          <h3 id="marking-up-contact-details">Marking Up Contact Details</h3>
+          <address>
+            <a href="mailto:noone@noone.com">noone@noone.com</a><br />
+            <a href="tel:+66666666666666">+66666666666666</a><br />
+            Hay Erraha, <br />
+            Berrechid. <br />
+            26100 <br />
+          </address>
+        </section>
+
+        <section aria-label="practicing superscript and subscript elements">
+          <h3 id="superscript">Superscript</h3>
+          <p>
+            Superscript is helpful when writing something like mathematical
+            equation: <br />
+            <b>"x<sup>3</sup> + 2x<sup>2</sup> + 3x + 7 = 0"</b> is an example.
+          </p>
+
+          <h3 id="subscript">Subscript</h3>
+          <p>
+            The subscript is very useful when you write some chemical formula,
+            <br />
+            for example the sugar formula is:
+            <b>C<sub>12</sub> H<sub>22</sub> O<sub>11</sub></b
+            >.
+          </p>
+        </section>
+
+        <section aria-label="practicing the code embedding">
+          <h3 id="embed-code">Embedding Code</h3>
+          <pre><code>
+            &lt;video controls loop muted&gt;
+              &lt;source src=&quot;video.mp4&quot; type=&quot;video/mp4&quot;&gt;
+              &lt;track src=&quot;track.vtt&quot; default srclang=&quot;ar&quot; label=&quot;Arabic&quot; kind=&quot;captions&quot;&gt;
+              Your browser doesn't support .mp4 video format, unfortunatelly!
+            &lt;/video&gt;
+          </code></pre>
+        </section>
+      </section>
+
+      <section aria-label="Show how to mark up time and date">
+        <h3 id="marking-up-time-and-date">Marking up time and date</h3>
+        <p>
+          <time datetime="2025-04-29">29 april 2025</time> is the date of today
+        </p>
+      </section>
+
+      <section aria-label="practice adding images">
+        <h3 id="adding-images">Adding Images</h3>
+        <p>It is simple process</p>
+        <figure>
+          <img
+            src="assets/images/croped/a-set-of-pink-roses.jpg"
+            alt="a set of beautiful pink roses"
+            width="400"
+            height="400"
+          />
+
+          <img
+            src="assets/images/croped/beautiful-red-rose.jpg"
+            alt="a beautiful red rose"
+            width="400"
+            height="400"
+          />
+
+          <img
+            src="assets/images/croped/beautiful-rose-plants.jpg"
+            alt="a gorgeous plant"
+            width="400"
+            height="400"
+          />
+
+          <img
+            src="assets/images/croped/beautiful-roses.jpg"
+            alt="beautiful roses"
+            width="400"
+            height="400"
+          />
+          <figcaption>
+            The images are taken from
+            <a href="https://unsplash.com/"> Unsplash </a> , I didn't attribute
+            the photo owners, because I had those images stored in my machine a
+            long time ago, and I didn't store their information, because I
+            thought I only going to use them for offline using, when practicing
+            some HTML in my machine, Sorry for that.
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>All rights received © 1446, Youssef EA</footer>
+  </body>
+</html>

@@ -880,3 +880,10 @@ Here is a list of the attributes it accept:
 > - The `<track>` elem should be placed within `<audio>` or `<video>`, but **after all** `<source>` elements.
 
 > For more details, including on how to add labels, read [Adding captions and subtitles to HTML video](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video) by MDN.
+
+### ✅💻 06 - Audio & Video
+
+A simple webpage to practice what I've learned until now
+
+- [code](./html-stage/06-audio-video/)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/06-audio-video/index.html)
