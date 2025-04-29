@@ -795,6 +795,10 @@ or include the path, in a separate `source` element, which is a void element, as
 </video>
 ```
 
+> [!NOTE]
+> Adding a `type` attribute is _optional_, but it is **important**, because when it is defined, the browser will skip the formats that doen't support,\
+> but if is not defined, then the browser will render the video, and then check if it can play it, if it can't, then it will move to the next available source if there is any, which consume time, and bandwidth.
+
 ### attributes
 
 - `src=""`: for the video path.
