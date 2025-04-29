@@ -843,6 +843,21 @@ It is similar to the `HTML video` element, with one difference:
 
 ## Displaying video text tracks [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio#displaying_video_text_tracks)
 
+```html
+<!-- Track Code Example-->
+<video controls>
+  <source src="example.mp4" type="video/mp4" />
+  <source src="example.webm" type="video/webm" />
+  <track
+    kind="subtitles"
+    src="subtitles_ar.vtt"
+    srclang="ar"
+    label="Arabic"
+    default
+  />
+</video>
+```
+
 To display text tracks in a video, we use the `<track>` element, which is a void element, it accept multiple attributes.\
 Here is a list of the attributes it accept:
 
