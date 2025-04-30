@@ -920,3 +920,85 @@ A simple webpage to practice what I've learned until now
 
 - `colspan`: Allows a cell to span multiple columns.
 - `rowspan`: Allows a cell to span multiple rows
+
+## HTML table accessibility
+
+Accessible tables are crucial for users relying on assistive technologies. Proper structuring and semantic markup ensure that screen readers and other tools can interpret and navigate tables effectively.
+
+### Adding Captions
+
+It is done by the `<caption>` element.
+
+- **Purpose**: Provides a concise description of the table's content.
+
+- **Placement**: Must be **the first child** of the `<table>` element.
+
+- **Benefit**: Enhances understanding for all users, especially those using screen readers.​
+
+### Structuring the table
+
+It is done using `<thead>`, `<tbody>`, and `<tfoot>` elements.\
+
+- These tags define table sections:
+  - `<thead>` for header rows.
+  - `<tbody>` for the main content.
+  - `<tfoot>` for summary rows.
+- Improves organization and clarity in the code structure.
+- Makes the table easier to style using CSS.
+  - Which makes the table easier to read and maintain.
+
+### Using scope with `<th>`
+
+- Defines how a header cell relates to data cells.
+- Values:
+  - **col** for column headers.
+  - **row** for row headers.
+  - **colgroup** and **rowgroup** for grouped headers.
+- Helps assistive technologies identify the correct header for each cell.
+
+```html
+<!-- Code example -->
+<thead>
+  <tr>
+    <th scope="col">Purchase</th>
+    <th scope="col">Location</th>
+  </tr>
+  <tr>
+    <th scope="row">Date</th>
+    <td>table cell</td>
+  </tr>
+</thead>
+```
+
+### id and headers for complex tables
+
+> [!NOTE]
+> Use this method only when `scope` isn’t enough (e.g., multiple header levels).
+
+To use it, you should:
+
+- Assign **id** attributes to header cells (`<th>`).
+- Reference those **ids** in the **headers** _attribute_ on data cells (`<td>`).
+
+```html
+<!-- Code Sample -->
+<thead>
+  <tr>
+    <th id="clothes" colspan="3">Clothes</th>
+  </tr>
+  <tr>
+    <th id="trousers" headers="clothes">Trousers</th>
+    <th id="skirts" headers="clothes">Skirts</th>
+    <th id="dresses" headers="clothes">Dresses</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th id="belgium" rowspan="3">Belgium</th>
+    <th id="antwerp" headers="belgium">Antwerp</th>
+    <td headers="antwerp belgium clothes trousers">56</td>
+    <td headers="antwerp belgium clothes skirts">22</td>
+    <td headers="antwerp belgium clothes dresses">43</td>
+  </tr>
+</tbody>
+```
