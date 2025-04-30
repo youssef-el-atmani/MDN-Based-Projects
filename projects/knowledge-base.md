@@ -1002,3 +1002,87 @@ To use it, you should:
   </tr>
 </tbody>
 ```
+
+### Assignment 📌
+
+- **Assignment Goal 🎯**: To practice _table structure_ and _table accessability_.
+
+> [!NOTE]
+> The following table is taken from **mdn learning-area**, You can find the original code at
+> [items-sold.html](https://github.com/mdn/learning-area/blob/main/html/tables/advanced/items-sold.html)\
+> I have slightly changed it so that I can write some elements by my hands.
+
+Take the following table as a starting point:
+
+```html
+<table>
+  <tr>
+    <td></td>
+    <th>Clothes</th>
+    <th>Accessories</th>
+  </tr>
+  <tr>
+    <th>Trousers</th>
+    <th>Skirts</th>
+    <th>Dresses</th>
+    <th>Bracelets</th>
+    <th>Rings</th>
+  </tr>
+
+  <tr>
+    <th>Belgium</th>
+    <th>Antwerp</th>
+    <td>56</td>
+    <td>22</td>
+    <td>43</td>
+    <td>72</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <th>Gent</th>
+    <td>46</td>
+    <td>18</td>
+    <td>50</td>
+    <td>61</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <th>Brussels</th>
+    <td>51</td>
+    <td>27</td>
+    <td>38</td>
+    <td>69</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <th>The Netherlands</th>
+    <th>Amsterdam</th>
+    <td>89</td>
+    <td>34</td>
+    <td>69</td>
+    <td>85</td>
+    <td>38</td>
+  </tr>
+  <tr>
+    <th>Utrecht</th>
+    <td>80</td>
+    <td>12</td>
+    <td>43</td>
+    <td>36</td>
+    <td>19</td>
+  </tr>
+</table>
+```
+
+#### Instructions
+
+- Make the headers span their relative columns and rows
+  - The table should look like [items-sold-headers.html<sup>by MDN</sup>](items-sold-headers.html).
+- Add the following **caption** to the `table`: _Items Sold August 2016_
+  - Recall that the caption should be the first child of the `table`
+- Differentiate the `table header` and `table body`
+- Write a **footer** for the table, and make sure it is recognized by the browser as a `table footer`.
+- Duplicate the table.
+- Now you have two identical tables.
+  - Improve the accessability of the first table using the _basic method_.
+  - For the other table, use the _advanced & explicit method_.
