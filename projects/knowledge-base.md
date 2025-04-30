@@ -887,3 +887,36 @@ A simple webpage to practice what I've learned until now
 
 - [code](./html-stage/06-audio-video/)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/06-audio-video/index.html)
+
+## HTML table basics
+
+### Structure
+
+- `<table>`: Encapsulates the entire table.
+- `<tr>`: Defines a table row.
+- `<td>`: Defines a standard data cell within a row.
+- `<th>`: Defines a header cell, typically used to label columns or rows.​
+
+### Creating a Basic Table
+
+1. Start with the `<table>` tag to create the table structure.
+2. Use `<tr>` to define a row within the table.
+3. Within each `<tr>`, use `<td>` for data cells or `<th>` for header cells.
+
+```html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+```
+
+### Spanning Rows and Columns
+
+- `colspan`: Allows a cell to span multiple columns.
+- `rowspan`: Allows a cell to span multiple rows
