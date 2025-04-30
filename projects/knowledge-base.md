@@ -1086,3 +1086,55 @@ Take the following table as a starting point:
 - Now you have two identical tables.
   - Improve the accessability of the first table using the _basic method_.
   - For the other table, use the _advanced & explicit method_.
+
+#### Additional Assignment
+
+follow the steps along the [Challenge: Structuring a planet data table <sup>MDN</sup>](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Planet_data_table)
+
+> [!NOTE]
+> Use the bellow markdown, not the one provided by MDN, since the planet names provided have _polytheism relation_\
+> In the bellow markdown I only changed the `polytheism words`, and everything else is identical to the original text provided by MDN.
+
+```
+Rows
+
+Terrestrial planets
+
+Utared 0.330 4,879 5427 3.7 4222.6 57.9 167 0 Closest to the Sun
+Zuhara 4.87 12,104 5243 8.9 2802.0 108.2 464 0
+Ard 5.97 12,756 5514 9.8 24.0 149.6 15 1 Our world
+Mirrikh 0.642 6,792 3933 3.7 24.7 227.9 -65 2 The red planet
+
+Gas and Ice Giants
+
+Gas giants
+
+Mushtari 1898 142,984 1326 23.1 9.9 778.6 -110 67 The largest planet
+Zuhal 568 120,536 687 9.0 10.7 1433.5 -140 62
+
+Ice giants
+
+Sabi'a 86.8 51,118 1271 8.7 17.2 2872.5 -195 27
+Thamina 102 49,528 1638 11.0 16.1 4495.1 -200 14
+
+Dwarf planets\*
+
+Tasi'a 0.0146 2,370 2095 0.7 153.3 5906.4 -225 5 Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.
+
+Columns
+
+Name
+Mass (10<sup>24</sup>kg)
+Diameter (km)
+Density (kg/m<sup>3</sup>)
+Gravity (m/s<sup>2</sup>)
+Length of day (hours)
+Distance from Sun (10<sup>6</sup>km)
+Mean temperature (°C)
+Number of moons
+Notes
+
+Caption
+
+Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+```
