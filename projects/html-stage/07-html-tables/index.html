@@ -80,6 +80,14 @@
                     </li>
                   </ul>
                 </li>
+
+                <li>
+                  <a href="#images">HTML Images</a>
+                  <ul>
+                    <li><a href="#img-recall">Recall</a></li>
+                    <li><a href="#img-practice">Practice</a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
@@ -603,6 +611,83 @@
           <section aria-labelledby="mark-date-and-time">
             <h3 id="mark-date-and-time">Marking Up Date & Time</h3>
             <p>it is done the <em>time</em> HTML element.</p>
+          </section>
+        </section>
+
+        <!-- HTML Images -->
+        <section aria-labelledby="images">
+          <h3 id="images">HTML Images</h3>
+
+          <section aria-labelledby="img-recall">
+            <h4 id="img-recall">Recall</h4>
+            <p>
+              We can embed an image using the <strong>img</strong>, it accept
+              the attributes: <em>src, alt, width, height</em>. The
+              <em>src</em> should point to the address where the image is
+              stored, it could be an absolute or relative link, though relative
+              links are preferred. the img name should be meaningful because the
+              search-engine do read the img file name, which mean a good name is
+              good for SEO. <br />
+              The <em>alt</em> should contain a descriptive text to the images,
+              incase if the image is failed to download, and also it is used for
+              screen readers. and of course it is good for SEO.
+              <br />
+              It is a good practice to specify the width and height of the
+              images so that the page content do not jump if the img did take
+              some time to download which something happen often, specially if
+              the img file is large, or the page contain numerous images, or the
+              user connection is somewhat slow.
+              <br />
+              But specifying the <em>width & height</em> for the image is a
+              complex topic when dealing with multiple screens, so it is an
+              advanced topic that you may want to go back to in the future, but
+              not for now.
+            </p>
+          </section>
+
+          <section aria-labelledby="image-practice">
+            <h4 id="img-practice">Practice</h4>
+            <figure>
+              <img
+                src="assets/images/croped/a-set-of-pink-roses.jpg"
+                alt="pink flowers"
+                width="350"
+                height="350"
+              />
+              <img
+                src="assets/images/beautiful-red-rose.jpg"
+                alt="beautiful red rose"
+                width="350"
+                height="350"
+              />
+              <img
+                src="assets/images/beautiful-rose-plants.jpg"
+                alt="beautiful image"
+                width="350"
+                height="350"
+              />
+              <img
+                src="assets/images/beautiful-roses.jpg"
+                alt="gorgeous roses"
+                width="350"
+                height="350"
+              />
+              <figcaption>
+                The images are taken from
+                <a
+                  href="https://unsplash.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Unsplash
+                </a>
+                , I didn't attribute the photo owners, because I had those
+                images stored in my machine a long time ago, and I didn't store
+                their information, because I thought I only going to use them
+                for offline using, when practicing some HTML in my machine,
+                Sorry for that.
+              </figcaption>
+            </figure>
           </section>
         </section>
       </section>
