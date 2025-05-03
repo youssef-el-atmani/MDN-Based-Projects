@@ -39,7 +39,65 @@
     <main>
       <section aria-label="table of content">
         <h2>Table of Content</h2>
-        <nav></nav>
+        <nav>
+          <ul>
+            <li>
+              <a href="#new-covered-lesson">The new covered lesson</a>
+              <ul>
+                <li>
+                  <a href="#how-to-create-tables">How to create HTML tables</a>
+                </li>
+                <li><a href="#table-accessability">Table Accessability</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section aria-labelledby="new-covered-lesson">
+        <h2 id="new-covered-lesson">The new covered lesson</h2>
+        <p>
+          I've covered HTML tables, I have learned how to create tables, and how
+          to make them accessible
+        </p>
+
+        <section aria-labelledby="how-to-create-tables">
+          <h3 id="how-to-create-tables">How to create HTML tables</h3>
+          <p>For creating a table we use the following HTML elements:</p>
+          <ul>
+            <li><b>table</b>: which defines the boundaries of the table</li>
+            <li><b>tr</b>: to define a table row</li>
+            <li><b>th</b>: to define table header</li>
+            <li><b>td</b>: to define a generic table cell</li>
+          </ul>
+
+          The table accept a <b>colspan</b> and <b>rowspan</b> attributes that
+          goes in table headers, which give us the ability to extend the
+          <b>table headers</b> to cover multiple <i>rows</i> or <i>columns</i>.
+        </section>
+
+        <section>
+          <h3 id="table-accessability">Table Accessability</h3>
+          <p>
+            In order to make the HTML tables accessible, HTML provides multiple
+            way, first, for insight users, we use CSS to make it easier to
+            navigate through tables, and we use <strong>caption</strong> element
+            to give a short presentation for the table, which is helpful for all
+            type of users.
+          </p>
+          <hr />
+          <p>
+            To make the table <em>accessible</em> by the screen readers, we have
+            two ways, the first is to use the <strong>scope</strong>, which is
+            an attribute that goes to table headers and tell wether that header
+            is a header for a row or a column. <br />
+            And another way using Ids and headers attributes, the latter is
+            complete robust, and make no room for mistake but is require a lot
+            of writing, and for that it is advisable to stick with the
+            <strong>scope</strong> attribute unless necessary, for example when
+            the table is complex and the <strong>scope</strong> is not enough.
+          </p>
+        </section>
       </section>
     </main>
   </body>
