@@ -1077,7 +1077,7 @@ Take the following table as a starting point:
 #### Instructions
 
 - Make the headers span their relative columns and rows
-  - The table should look like [items-sold-headers.html<sup>by MDN</sup>](items-sold-headers.html).
+  - The table should look like [items-sold-headers.html<sup>by MDN</sup>](https://mdn.github.io/learning-area/html/tables/advanced/items-sold-headers.html).
 - Add the following **caption** to the `table`: _Items Sold August 2016_
   - Recall that the caption should be the first child of the `table`
 - Differentiate the `table header` and `table body`
