@@ -63,6 +63,23 @@
                     <li><a href="#description-lists">Description Lists</a></li>
                   </ul>
                 </li>
+                <li>
+                  <a href="#advanced-text-features">Advanced Text Features</a>
+                  <ul>
+                    <li><a href="#quotations">Quotations</a></li>
+                    <li><a href="#abbreviations">Abbreviations</a></li>
+                    <li>
+                      <a href="#mark-contact-details">
+                        Marking Up Contact Details
+                      </a>
+                    </li>
+                    <li><a href="#sup-and-sub">Sup & Sub</a></li>
+                    <li><a href="#computer-code">Computer Code</a></li>
+                    <li>
+                      <a href="#mark-date-and-time">Marking Date & Time</a>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
@@ -497,6 +514,96 @@
           <aside>This is mainly for practicing the aside element</aside>
           <hr />
           <aside>Author: Youssef EA</aside>
+        </section>
+
+        <!-- Advanced Text Features -->
+        <section aria-labelledby="advanced-text-features">
+          <h3 id="advanced-text-features">Advanced Text Features</h3>
+
+          <!-- Quotations -->
+          <section aria-labelledby="quotations">
+            <h4 id="quotations">Quotations</h4>
+            <p>
+              As wikipedia once said
+              <q cite="https://en.wikipedia.org/wiki/Car">
+                A car, or an automobile, is a motor vehicle with wheels.
+              </q>
+            </p>
+            <hr />
+            <p>It did go further explain that</p>
+            <blockquote cite="https://en.wikipedia.org/wiki/Car">
+              Most definitions of cars state that they run primarily on roads,
+              seat one to eight people, have four wheels, and mainly transport
+              people rather than cargo.[1][2] There are around one billion cars
+              in use worldwide.
+            </blockquote>
+          </section>
+
+          <!-- Abbreviations -->
+          <section aria-labelledby="abbreviations">
+            <h4 id="abbreviations">Abbreviations</h4>
+
+            <p>
+              To give you an idea, I am writing this page using
+              <abbr title="Hypertext markup language">HTML</abbr>.
+            </p>
+            <hr />
+            <p>The following are some common abbreviations:</p>
+            <ul>
+              <li><abbr title="doctor">Dr</abbr>,</li>
+
+              <li><abbr title="et cetera">etc</abbr></li>
+            </ul>
+          </section>
+
+          <!-- Marking Up Contact Details -->
+          <section aria-labelledby="mark-contact-details">
+            <h3 id="mark-contact-details">Marking Up Contact Details</h3>
+
+            <address>
+              <a href="mailto:youssef@example.com">youssef@example.com</a><br />
+              <a href="tel:+777777777">+777777777</a>
+
+              <p>Street 77 near the seventh river</p>
+            </address>
+          </section>
+
+          <!-- Superscript and Subscript -->
+          <section aria-labelledby="">
+            <h3 id="sup-and-sub">Sup & Sub</h3>
+            <p>
+              Those are very useful for equations like
+              <b>x<sup>3</sup> + 2x<sup>2</sup> + 7 = 0</b>, and for
+              <b>C<sub>12</sub>H<sub>22</sub>O<sub>11</sub></b>
+              . The latter is the Sugar chemical formula.
+            </p>
+          </section>
+
+          <!-- Computer Code -->
+
+          <section>
+            <h3 id="computer-code">Computer Code</h3>
+            <pre>
+                <code>
+                  &lt;table&gt;
+                    &lt;caption&gt;This is a table&lt;/caption&gt;
+                    &lt;tr&gt;
+                      &lt;th&gt;h1&lt;/th&gt;
+                      &lt;th&gt;h2H&lt;/th&gt;
+                      &lt;th&gt;H3H&lt;/th&gt;
+                      &lt;th&gt;H4H&lt;/th&gt;
+                    &lt;/tr&gt;
+                  &lt;/table&gt;
+                </code>
+              </pre>
+          </section>
+
+          <!-- Marking Up Date and time -->
+
+          <section aria-labelledby="mark-date-and-time">
+            <h3 id="mark-date-and-time">Marking Up Date & Time</h3>
+            <p>it is done the <em>time</em> HTML element.</p>
+          </section>
         </section>
       </section>
     </main>
