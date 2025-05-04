@@ -34,7 +34,10 @@ header .basmalah p {
 
 header .basmalah a {
   color: #008080;
-  text-decoration: none;
+  /* text-decoration: none; */
+}
+header .basmalah a:hover {
+  color: #333;
 }
 
 header h1 {
