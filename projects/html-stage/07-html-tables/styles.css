@@ -156,3 +156,9 @@ hr {
     display: block;
   }
 }
+
+/* new lesson sign */
+.new-lesson {
+  color: red;
+  font-weight: bold;
+}
