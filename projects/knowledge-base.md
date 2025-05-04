@@ -1138,3 +1138,10 @@ Caption
 
 Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
 ```
+
+### ✅💻 07 - HTML Tables
+
+A simple webpage to practice everything I've learned until now.
+
+- [code](./html-stage/07-html-tables)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/07-html-tables/index.html)
