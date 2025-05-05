@@ -40,7 +40,7 @@ h1 {
 } */
 
 .basmalah {
-  background-color: #adb5bd;
+  background-color: #212529;
   color: white;
   padding: 31px;
 }
@@ -55,10 +55,10 @@ h1 {
   font-weight: bold;
 }
 .english-basmalah {
-  color: #212529;
+  color: #fff;
 }
 .english-basmalah:hover {
-  color: #ffffff;
+  color: #adb5bd;
 }
 
 body {
@@ -76,13 +76,27 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background-color: #ced4da;
+  background-color: #495057;
+  color: #fff;
   padding: 7px 17px;
   /* the following list of fonts are taken from the mdn-web-docs website using the dev-tool */
   font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
+
+.header-content a {
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+.header-content a:hover {
+  background-color: #212529;
+}
+.header-content a:active {
+  background-color: #adb5bd;
+}
+
 /* logo */
 .logo {
   display: flex;
@@ -103,9 +117,7 @@ body {
 
 /* Main Content */
 body {
-  background-color: #e9ecef;
   color: #212529;
-  /* background-color: #ffffff; */
   margin: 0;
   min-height: 100vh;
   display: flex;
