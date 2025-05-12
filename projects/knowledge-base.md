@@ -1145,3 +1145,222 @@ A simple webpage to practice everything I've learned until now.
 
 - [code](./html-stage/07-html-tables)
 - [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/07-html-tables/index.html)
+
+## HTML Forms
+
+**Buttons** are usually created using HTML `<button>` elements (they are also sometimes created using `<input>` elements with their type attributes set to a value like **button** or **submit**).\
+\
+**Forms** are created using elements such as `<form>`, `<label>`, `<input>`, and `<select>`.
+
+### The anatomy of a form
+
+- A `<form>` element, which wraps all of the other form content.\
+- One or more pairs each consisting of a `<label>` element and a `form control` element (usually an `<input>` element, but there are other types as well, for example `<select>`)\
+- A `<button>` element, used to submit the form.
+
+#### The `<form>` element
+
+```html
+<form action="./submit_page" method="get"></form>
+```
+
+The `<form>` element acts as the outer wrapper for the form, grouping together all the form controls inside it. When the `<button>` is pressed, all the data represented by the **form controls** will be _submitted_ to the server. The `<form>` element can take many attributes, but the two most important ones, are as follows:
+
+- **action**: Contains a path to the page that we want to send the submitted form data to, to be processed.
+- **method**: Specifies the data transmission method you want to use for sending the form data to the server.
+
+#### Structuring forms
+
+##### Including HTML elements
+
+You can include any HTML elements you like inside a `<form>` element to structure the form elements themselves and provide containers to target with CSS for styling, etc, _look to the following code snippet_:
+
+```html
+<form action="./submit_page" method="get">
+  <h2>Subscribe to our newsletter</h2>
+</form>
+```
+
+##### Separating form elements
+
+Some people use `<p>` elements to separate out their **form elements**, some use `<div>`, `<section>`, or even `<li>` elements. It doesn't matter a great deal, _as long as the elements used make semantic sense_.
+
+##### Grouping form elements
+
+**fieldset** elem is used to group a set of related **form element**, such as multiple _checkboxes_ and _radio_ buttons.
+
+#### input element
+
+The `<input>` elements represent the different data items entered into the form.\
+\
+Take the following example:
+
+```html
+<input type="text" name="name" id="name" required />
+```
+
+The attributes are as follows:
+
+- **type**: Specifies the *type*of form control to create. There are many different types of form controls, from **simple text** fields of different types to **radio buttons**, **checkboxes**, and more.
+- **name**: Specifies a name for the data item. When the form is submitted, the data is sent in **name/value** pairs.
+- **id**: Specifies an ID that can be used to identify the element. In this case, it is used to associate the form control with its `<label>`.
+- **required**: Specifies that a value has to be entered into the form element before the form can be submitted.
+
+> [!NOTE]
+> Some input types usually don't get their values from text entered into a field. For example, `<input type="color">` renders a color picker widget that you choose a color from.
+
+> [!NOTE]
+> For radio buttons you should provide a **value** attribute, where you specify the value that will be submitted if a specific button has been checked.\
+> Note that you can specify a `value` attribute on input types like **text** and **color** — the effect is that the value is pre-filled into the form field when it is first rendered
+
+##### Some form control types:
+
+- text
+- number
+- email
+- password
+- color
+- tel
+- radio
+- checkbox
+
+#### the label elem [^](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms#label_elements)
+
+`<label>` elements provide identifying labels associated with form controls that describe the data that should be entered into them.
+
+```html
+<!-- Usage of label elem  -->
+<label for="name">Name (required):</label>
+<input type="text" name="name" id="name" required />
+```
+
+`<label>` elements are important for several reasons, most notably that:
+
+- For visually impaired users.
+- They enable you to focus the form elements by clicking on their label text as well as the controls.
+
+##### Explicit and implicit form labels
+
+You can implement an implicit form label by nesting the control inside the label, like this:
+
+```html
+<!-- implicit form label -->
+<!-- MDN: Not Preferred, Use the Explicit instead! -->
+<label>
+  Name (required):
+  <input type="text" name="name" required />
+</label>
+```
+
+The nesting makes an implicit association between control and label, and you no longer need the **id** and **for** attributes.
+
+> [!NOTE]
+> According to MDN, the **explicit** label approach is preferred.
+
+#### The button elem
+
+When a `<button>` element is included inside a `<form>` element, its default behavior is that it will submit the form.\
+\
+There are other button behaviors that can be specified via the `<button>` element's type attribute:
+
+- `<button type="submit">` **explicitly** declares that a button should behave like a **submit button**.
+  - You don't ever really need to declare this, unless for some reason you are including other buttons inside your `<form>`.
+- `<button type="reset">` creates a reset button — this immediately deletes all data out of the form, resetting it to its initial state.
+  - 🚫⚠️ **Don't ever use reset buttons** .. Most people have experienced filling out a long form only to click the reset button by accident
+- `<button type="button">` creates a button with the same behavior as buttons specified outside of `<form>` elements.
+
+> [!NOTE]
+> You can also create the above button types using an `<input>` element with the same type values specified — `<input type="submit">`, `<input type="reset">`, and `<input type="button">`. However, these have **many disadvantages** compared to their `<button>` counterparts. You should use `<button>` instead.
+
+### Other control types
+
+#### Radio buttons
+
+```html
+<form>
+  <!-- Male or Female -->
+  <fieldset>
+    <legend>What is your gender? (Required)</legend>
+    <input type="radio" name="gender" value="Male" id="male-gender" checked />
+    <label for="male-gender">Male</label>
+
+    <input type="radio" name="gender" value="Female" id="female-gender" />
+    <label for="female-gender">Female</label>
+  </fieldset>
+</form>
+```
+
+radio buttons are implemented using `<input type="radio">` controls.\
+These render as a set of push button controls where only one of the set can be selected at any one time.\
+\
+**radio** input types mostly work the same as text input types, but with a few differences
+
+- The name attributes for each set of radio buttons have to contain the same value, to associate them together as one set.
+- You have to include a value attribute containing the value to submit for each radio button.
+- The `<label>` for each radio button should describe that particular value choice, rather than the overall value you are selecting.
+
+> [!NOTE]
+> The preferred way to provide a description of the overall value choice is to wrap them in a `<fieldset>`, which takes a `<legend>` element as a child that contains the description.
+
+### Disabling form controls
+
+It is done using `disabled` boolean attribute, you can either disable a **single** form element, or an entire set of form element that fall within the the `fieldset` boundaries, you can also **disable** a button element.
+
+#### Checkboxes
+
+It is implemented using `<input type="checkbox"> `.
+\
+\
+radio buttons and checkboxes are implemented in a very similar way (they can also take **checked** attributes to render them pre-selected when the page loads). They also behave in a fairly similar fashion, except that **radio buttons** allow you to choose zero or one items out of many, and **checkboxes** allow you to choose zero or more items out of many.
+
+---
+
+```html
+<input type="checkbox" id="white-color" name="white" />
+<label for="white-color">White</label>
+
+<input type="checkbox" id="blue-color" name="blue" />
+<label for="blue-color">Blue</label>
+```
+
+The main difference (`apart from the type value!`) is that each **checkbox**
+has a **different name value**, and they generally **aren't given value
+attributes**. Behavior-wise, this means they represent different data values,
+whereas a radio button set only represents one. On submission, each value is
+submitted with a value of on if the checkbox was checked — `blue=on`, `white=on`, etc.
+
+---
+
+#### Drop-down menus
+
+Implemented using the **selection control**.
+
+```html
+<label for="transport">How are you getting here:</label>
+<select name="transport" id="transport">
+  <option value="">--Please choose an option--</option>
+  <option value="plane">Plane</option>
+  <option value="bike">Bike</option>
+  <option value="walk">Walk</option>
+  <option value="bus">Bus</option>
+  <option value="train">Train</option>
+  <option value="jetPack">Jet pack</option>
+</select>
+```
+
+If you _don't_ specify a **value** inside the **option**, the **text** inside the `<option></option>` tags is used as the **value**.
+
+> [!NOTE]
+> If you want to have a specific option selected on page load, you can add a **selected** attribute to the relevant `<option>` element.
+
+#### Multi-line text input fields
+
+Multi-line text input fields are created using `<textarea>` elements:
+
+```html
+<label for="comments">Any other comments:</label>
+<textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+```
+
+They behave in the same way as `<input type="text">` elements, **except** that they allow multiple lines of text to be entered. The rows attribute specifies the number of rows tall the text area will be by default, while the cols attribute specifies the number of columns wide the text area will be by default.\
+If they are not specified, the values used are _cols="20" and rows="2"_.
