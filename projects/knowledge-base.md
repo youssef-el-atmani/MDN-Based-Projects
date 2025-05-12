@@ -1364,3 +1364,38 @@ Multi-line text input fields are created using `<textarea>` elements:
 
 They behave in the same way as `<input type="text">` elements, **except** that they allow multiple lines of text to be entered. The rows attribute specifies the number of rows tall the text area will be by default, while the cols attribute specifies the number of columns wide the text area will be by default.\
 If they are not specified, the values used are _cols="20" and rows="2"_.
+
+### Form Assignment
+
+**The Goal**: to be comfortable with creating HTML forms, and to remember all it different parts.
+
+---
+
+- create a form element
+- add a path where the data will be sent
+- add a method
+
+---
+
+Add the following title to the form: **Practice Writing Forms**
+
+---
+
+- Take the **user name**, it should be required.
+- Take the **user age**.
+- Take the **user gender**, required.
+- Take the **user email**.
+- Take the **user phone**.
+- Ask the user : **What you've learned**, and give him the following options:
+  - HTML
+  - CSS
+  - JS
+  - React
+- Ask the user for his goal: **What is your Goal?**
+  - --Choose One--
+  - Front End
+  - Back End
+  - Full Stack
+- Give the user the ability to **Leave a message**
+- Add a **submit** button
+- Add a **reset** button, test it, and remove it, since it should be avoided
