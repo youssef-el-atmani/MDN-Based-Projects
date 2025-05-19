@@ -3,6 +3,18 @@
 > Here I'll store all the knowledge starting from the date `27 Feb 2025`\
 > That knowledge is strictly related to `web dev`, and mostly related to `Front End Dev`\
 
+## How to write THIS BASE
+
+### Assignments
+
+At the end of each new-covered lesson will be an assignment that make sure to practice everything you've covered in that lesson.\
+\
+Each lesson is made up from few section, under each section, or subsection, write a **sub-assignment** that will be used later to practice what is covered in that section (or subsection).\
+\
+Once you finish the lesson, create a global-assignment, which wrap all the sub-assignments. It is a simple process, copy & paste, with little tweaks if needed.
+
+> That is helpful, because once you finish a lesson, and get to the assignment section, you won't have to go section by section and think hard to extract the right assignment, you are most likely going to drop some important stuffs if you do that.
+
 ## Structuring Content With HTML
 
 ### Basic HTML Syntax
