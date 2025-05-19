@@ -1397,5 +1397,7 @@ Add the following title to the form: **Practice Writing Forms**
   - Back End
   - Full Stack
 - Give the user the ability to **Leave a message**
+  - Use the following label: **Do you want to tell us something**
+  - Add the following text to text-box: **Anything you would like to share with us**
 - Add a **submit** button
 - Add a **reset** button, test it, and remove it, since it should be avoided
