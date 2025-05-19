@@ -1327,7 +1327,7 @@ The main difference (`apart from the type value!`) is that each **checkbox**
 has a **different name value**, and they generally **aren't given value
 attributes**. Behavior-wise, this means they represent different data values,
 whereas a radio button set only represents one. On submission, each value is
-submitted with a value of on if the checkbox was checked — `blue=on`, `white=on`, etc.
+submitted with a _value_ of **on** if the checkbox was _checked_ — `blue=on`, `white=on`, etc.
 
 ---
 
@@ -1383,6 +1383,8 @@ Add the following title to the form: **Practice Writing Forms**
 
 - Take the **user name**, it should be required.
 - Take the **user age**.
+  - Disable the **user age** form-division.
+  - Keep it disabled, do **not** enable it.
 - Take the **user gender**, required.
 - Take the **user email**.
 - Take the **user phone**.
@@ -1391,13 +1393,19 @@ Add the following title to the form: **Practice Writing Forms**
   - CSS
   - JS
   - React
+- Disable that form-section that ask the user **What you've learned**.
+  - Try to interact with it.
+  - Enable it before you move on
 - Ask the user for his goal: **What is your Goal?**
   - --Choose One--
   - Front End
   - Back End
   - Full Stack
+    - Make the **Full Stack** option selected by default when the page loads
 - Give the user the ability to **Leave a message**
   - Use the following label: **Do you want to tell us something**
   - Add the following text to text-box: **Anything you would like to share with us**
 - Add a **submit** button
-- Add a **reset** button, test it, and remove it, since it should be avoided
+- Add a **reset** button,
+  - Disable it.
+  - Note that in real application it should be originally avoided, but for practice, include it and disable it, and keep it disabled.
