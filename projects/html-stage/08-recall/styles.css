@@ -1,0 +1,13 @@
+label {
+  display: inline-block;
+  width: 111px;
+}
+
+label[for="user-study-goal"] {
+  width: 200px;
+}
+
+label[for="user-message"] {
+  display: block;
+  width: 100%;
+}
