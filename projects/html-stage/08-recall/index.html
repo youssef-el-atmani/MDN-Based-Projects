@@ -68,6 +68,7 @@
                 <a href="#marking-up-time-date">Marking Up Times & Dates</a>
               </li>
               <li><a href="#images">HTML Images</a></li>
+              <li><a href="#videos">HTML Videos</a></li>
             </ul>
           </li>
         </ul>
@@ -371,6 +372,50 @@
             <figcaption>
               Beautiful Road crossing an orange forest, it is orange because it
               is the autumn season.
+            </figcaption>
+          </caption>
+        </section>
+
+        <section aria-labelledby="videos">
+          <h3 id="videos">HTML Videos</h3>
+
+          <caption>
+            <video
+              height="400"
+              controls
+              muted
+              poster="./assets/images/autumn-forest-road.jpg"
+            >
+              <source
+                src="./assets/videos/swinging-bench.mp4"
+                type="video/mp4"
+              />
+              <track
+                src="./assets/tracks/caption-ar.vtt"
+                kind="captions"
+                srclang="ar"
+                label="Arabic"
+                default
+              />
+              <track
+                src="./assets/tracks/subtitles-en.vtt"
+                kind="subtitles"
+                srclang="en"
+                label="English"
+              />
+              <p>Your browser do not support MP4 videos</p>
+            </video>
+
+            <figcaption>
+              Video by
+              <a
+                href="https://pixabay.com/users/upstreamcity-12012850/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                upstreamcity ..↗
+              </a>
+              from Pixabay.
             </figcaption>
           </caption>
         </section>
