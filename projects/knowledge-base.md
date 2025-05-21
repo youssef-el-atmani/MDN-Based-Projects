@@ -1420,3 +1420,10 @@ Add the following title to the form: **Practice Writing Forms**
 - Add a **reset** button,
   - Disable it.
   - Note that in real application it should be originally avoided, but for practice, include it and disable it, and keep it disabled.
+
+### ✅💻 08 - Recall
+
+A simple webpage to revise everything I've learned until now.
+
+- [code](./html-stage/08-recall/)
+- [live preview](https://youssef-el-atmani.github.io/MDN-Based-Projects/projects/html-stage/08-recall/index.html).
